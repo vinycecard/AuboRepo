@@ -1,0 +1,4 @@
+Linked: (/home/nicolas/catkin_ws/devel/.private/aubo_controller/share/aubo_controller/cmake/aubo_controllerConfig-version.cmake, /home/nicolas/catkin_ws/devel/share/aubo_controller/cmake/aubo_controllerConfig-version.cmake)
+Linked: (/home/nicolas/catkin_ws/devel/.private/aubo_controller/share/aubo_controller/cmake/aubo_controllerConfig.cmake, /home/nicolas/catkin_ws/devel/share/aubo_controller/cmake/aubo_controllerConfig.cmake)
+Linked: (/home/nicolas/catkin_ws/devel/.private/aubo_controller/lib/aubo_controller/aubo_joint_trajectory_action, /home/nicolas/catkin_ws/devel/lib/aubo_controller/aubo_joint_trajectory_action)
+Linked: (/home/nicolas/catkin_ws/devel/.private/aubo_controller/lib/pkgconfig/aubo_controller.pc, /home/nicolas/catkin_ws/devel/lib/pkgconfig/aubo_controller.pc)

@@ -1,0 +1,7 @@
+[01m[K/home/nicolas/catkin_ws/src/moveit_tutorials/doc/planning_scene_ros_api/src/planning_scene_ros_api_aubo_i5.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/moveit_tutorials/doc/planning_scene_ros_api/src/planning_scene_ros_api_aubo_i5.cpp:242:2:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+ */
+[01;32m[K  ^[m[K
+make[2]: *** [doc/planning_scene_ros_api/CMakeFiles/planning_scene_ros_api_aubo_i5.dir/src/planning_scene_ros_api_aubo_i5.cpp.o] Error 1
+make[1]: *** [doc/planning_scene_ros_api/CMakeFiles/planning_scene_ros_api_aubo_i5.dir/all] Error 2
+make: *** [all] Error 2

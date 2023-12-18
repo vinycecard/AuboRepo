@@ -1,0 +1,10 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:[m[K In member function ‘[01m[Kvoid JointControl::reference()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:375:37:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[K((JointControl*)this)->JointControl::trace_R[m[K’, which is of non-class type ‘[01m[Kdouble[m[K’
+         for (int i = 0; i < trace_R.size(); i++)
+[01;32m[K                                     ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:376:35:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+             std::cout << trace_R(i) << " ";
+[01;32m[K                                   ^[m[K
+make[2]: *** [CMakeFiles/control_Nico.dir/src/control_Nico.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_Nico.dir/all] Error 2
+make: *** [all] Error 2

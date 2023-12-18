@@ -1,0 +1,8 @@
+prefix=/home/nicolas/catkin_ws/devel/.private/aubo_i5_moveit_config
+
+Name: aubo_i5_moveit_config
+Description: Description of aubo_i5_moveit_config
+Version: 1.3.3
+Cflags: 
+Libs: -L/home/nicolas/catkin_ws/devel/.private/aubo_i5_moveit_config/lib 
+Requires: 

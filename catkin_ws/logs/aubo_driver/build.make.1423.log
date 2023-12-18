@@ -1,0 +1,50 @@
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target aubo_msgs_generate_messages_nodejs
+[ 16%] Built target aubo_gazebo_driver
+[ 16%] Built target std_msgs_generate_messages_lisp
+[ 16%] Built target std_msgs_generate_messages_nodejs
+[ 16%] Built target std_msgs_generate_messages_eus
+[ 16%] Built target geometry_msgs_generate_messages_py
+[ 16%] Built target std_msgs_generate_messages_py
+[ 16%] Built target geometry_msgs_generate_messages_nodejs
+[ 16%] Built target sensor_msgs_generate_messages_eus
+[ 16%] Built target sensor_msgs_generate_messages_nodejs
+[ 16%] Built target aubo_msgs_generate_messages_lisp
+[ 16%] Built target geometry_msgs_generate_messages_lisp
+[ 16%] Built target sensor_msgs_generate_messages_cpp
+[ 16%] Built target std_msgs_generate_messages_cpp
+[ 16%] Built target sensor_msgs_generate_messages_py
+[ 16%] Built target roscpp_generate_messages_eus
+[ 16%] Built target sensor_msgs_generate_messages_lisp
+[ 16%] Built target roscpp_generate_messages_lisp
+[ 16%] Built target rosgraph_msgs_generate_messages_eus
+[ 16%] Built target roscpp_generate_messages_py
+[ 16%] Built target roscpp_generate_messages_nodejs
+[ 16%] Built target geometry_msgs_generate_messages_eus
+[ 16%] Built target rosgraph_msgs_generate_messages_cpp
+[ 16%] Built target rosgraph_msgs_generate_messages_lisp
+[ 16%] Built target aubo_msgs_generate_messages_eus
+[ 16%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 16%] Built target aubo_msgs_generate_messages_py
+[ 16%] Built target aubo_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target aubo_control[0m
+[ 16%] Built target rosgraph_msgs_generate_messages_py
+[ 33%] Built target sendJointPos
+[ 66%] Built target testAuboAPI
+[ 66%] Built target testIO
+[ 75%] [32mBuilding CXX object CMakeFiles/aubo_control.dir/src/aubo_control.cpp.o[0m
+[ 91%] Built target aubo_driver
+[100%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/aubo_driver/lib/aubo_driver/aubo_control[0m
+CMakeFiles/aubo_control.dir/src/aubo_control.cpp.o: In function `AuboControl::AuboControl(int, char**)':
+aubo_control.cpp:(.text._ZN11AuboControlC2EiPPc[_ZN11AuboControlC5EiPPc]+0x125): undefined reference to `rosbag::Bag::Bag()'
+aubo_control.cpp:(.text._ZN11AuboControlC2EiPPc[_ZN11AuboControlC5EiPPc]+0x2336): undefined reference to `rosbag::Bag::~Bag()'
+CMakeFiles/aubo_control.dir/src/aubo_control.cpp.o: In function `AuboControl::~AuboControl()':
+aubo_control.cpp:(.text._ZN11AuboControlD2Ev[_ZN11AuboControlD5Ev]+0x3b3): undefined reference to `rosbag::Bag::~Bag()'
+collect2: error: ld returned 1 exit status
+CMakeFiles/aubo_control.dir/build.make:114: recipe for target '/home/nicolas/catkin_ws/devel/.private/aubo_driver/lib/aubo_driver/aubo_control' failed
+make[2]: *** [/home/nicolas/catkin_ws/devel/.private/aubo_driver/lib/aubo_driver/aubo_control] Error 1
+CMakeFiles/Makefile2:1068: recipe for target 'CMakeFiles/aubo_control.dir/all' failed
+make[1]: *** [CMakeFiles/aubo_control.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

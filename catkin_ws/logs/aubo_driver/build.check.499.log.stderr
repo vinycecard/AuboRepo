@@ -1,0 +1,12 @@
+[31m[1mCMake Error[0m at /home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/CMakeLists.txt:60 (add_executable):
+  Cannot find source file:
+
+    logger/src/logger.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: control_Nico
+CMake Error: Cannot determine link language for target "control_Nico".
+make: *** [cmake_check_build_system] Error 1

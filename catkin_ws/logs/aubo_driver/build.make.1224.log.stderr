@@ -1,0 +1,8 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/sendJointPos.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/sendJointPos.cpp:94:59:[m[K [01;31m[Kerror: [m[Kinvalid use of member function (did you forget the ‘[01m[K()[m[K’ ?)
+         if ((time_from_start.toSec - last_time_from_start.toSec) < (1.0))
+[01;32m[K                                                           ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/sendJointPos.cpp:94:59:[m[K [01;31m[Kerror: [m[Kinvalid use of member function (did you forget the ‘[01m[K()[m[K’ ?)
+make[2]: *** [CMakeFiles/sendJointPos.dir/src/sendJointPos.cpp.o] Error 1
+make[1]: *** [CMakeFiles/sendJointPos.dir/all] Error 2
+make: *** [all] Error 2

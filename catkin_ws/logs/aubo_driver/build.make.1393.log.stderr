@@ -1,0 +1,25 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_control.cpp:[m[K In member function ‘[01m[Kvoid AuboControl::setParameters()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_control.cpp:432:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kparam(const char [20], std::vector<double>&, <brace-enclosed initializer list>)[m[K’
+   ros::param::param<double[3]>("/aubo_control/Sigma",SigmaDiag,{0.0, 0.0, 1.0});
+[01;32m[K                                                                               ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:54:0[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_control.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/param.h:608:6:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> bool ros::param::param(const string&, T&, const T&)
+ bool param(const std::string& param_name, T& param_val, const T& default_val)
+[01;32m[K      ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/param.h:608:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_control.cpp:432:79:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KSigmaDiag[m[K’ (type ‘[01m[Kstd::vector<double>[m[K’) to type ‘[01m[Kdouble (&)[3][m[K’
+   ros::param::param<double[3]>("/aubo_control/Sigma",SigmaDiag,{0.0, 0.0, 1.0});
+[01;32m[K                                                                               ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:54:0[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_control.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/param.h:640:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> T ros::param::param(const string&, const T&)
+ T param(const std::string& param_name, const T& default_val)
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/param.h:640:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/kinetic/include/ros/param.h: In substitution of ‘[01m[Ktemplate<class T> T ros::param::param(const string&, const T&) [with T = double [3]][m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_control.cpp:432:79:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/param.h:640:3:[m[K [01;31m[Kerror: [m[Kfunction returning an array
+make[2]: *** [CMakeFiles/aubo_control.dir/src/aubo_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/aubo_control.dir/all] Error 2
+make: *** [all] Error 2

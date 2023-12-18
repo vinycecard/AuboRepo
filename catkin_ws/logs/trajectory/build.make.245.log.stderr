@@ -1,0 +1,7 @@
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/velocity_estimator.cpp:[m[K In function ‘[01m[Kvoid wait_jointstate()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/velocity_estimator.cpp:29:50:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+     std::cout << "wait_jointstate entered" << std:endl;
+[01;32m[K                                                  ^[m[K
+make[2]: *** [CMakeFiles/velocity_estimator.dir/src/velocity_estimator.cpp.o] Error 1
+make[1]: *** [CMakeFiles/velocity_estimator.dir/all] Error 2
+make: *** [all] Error 2

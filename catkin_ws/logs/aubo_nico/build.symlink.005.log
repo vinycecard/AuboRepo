@@ -1,0 +1,12 @@
+Linked: (/home/nicolas/catkin_ws/devel/.private/aubo_nico/share/aubo_nico/cmake/aubo_nicoConfig.cmake, /home/nicolas/catkin_ws/devel/share/aubo_nico/cmake/aubo_nicoConfig.cmake)
+Linked: (/home/nicolas/catkin_ws/devel/.private/aubo_nico/share/aubo_nico/cmake/aubo_nicoConfig-version.cmake, /home/nicolas/catkin_ws/devel/share/aubo_nico/cmake/aubo_nicoConfig-version.cmake)
+Linked: (/home/nicolas/catkin_ws/devel/.private/aubo_nico/lib/aubo_nico/filter, /home/nicolas/catkin_ws/devel/lib/aubo_nico/filter)
+Linked: (/home/nicolas/catkin_ws/devel/.private/aubo_nico/lib/aubo_nico/joint_control, /home/nicolas/catkin_ws/devel/lib/aubo_nico/joint_control)
+Linked: (/home/nicolas/catkin_ws/devel/.private/aubo_nico/lib/aubo_nico/velocity_estimator, /home/nicolas/catkin_ws/devel/lib/aubo_nico/velocity_estimator)
+Linked: (/home/nicolas/catkin_ws/devel/.private/aubo_nico/lib/aubo_nico/initial_conditions, /home/nicolas/catkin_ws/devel/lib/aubo_nico/initial_conditions)
+Linked: (/home/nicolas/catkin_ws/devel/.private/aubo_nico/lib/aubo_nico/openloop_control, /home/nicolas/catkin_ws/devel/lib/aubo_nico/openloop_control)
+Linked: (/home/nicolas/catkin_ws/devel/.private/aubo_nico/lib/aubo_nico/grid_trajectory, /home/nicolas/catkin_ws/devel/lib/aubo_nico/grid_trajectory)
+Linked: (/home/nicolas/catkin_ws/devel/.private/aubo_nico/lib/aubo_nico/trajectory_publisher, /home/nicolas/catkin_ws/devel/lib/aubo_nico/trajectory_publisher)
+Linked: (/home/nicolas/catkin_ws/devel/.private/aubo_nico/lib/aubo_nico/xml_on_the_fly, /home/nicolas/catkin_ws/devel/lib/aubo_nico/xml_on_the_fly)
+Symlinking /home/nicolas/catkin_ws/devel/lib/aubo_nico/aubo_robot
+Linked: (/home/nicolas/catkin_ws/devel/.private/aubo_nico/lib/pkgconfig/aubo_nico.pc, /home/nicolas/catkin_ws/devel/lib/pkgconfig/aubo_nico.pc)

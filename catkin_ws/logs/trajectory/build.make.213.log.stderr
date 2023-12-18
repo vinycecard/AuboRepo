@@ -1,0 +1,37 @@
+In file included from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/otg/OTGStep1.h:3:0[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/otg/otgnewslib.h:4[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:7[m[K:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/otg/OtgType3Com.h:14:17:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+ #define ARM_DOF 6
+[01;32m[K                 ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/AuboRobotMetaType.h:33:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KARM_DOF[m[K’
+ enum {ARM_DOF = 6};          /** 机械臂关节数 **/
+[01;32m[K       ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/otg/OtgType3Com.h:14:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before numeric constant
+ #define ARM_DOF 6
+[01;32m[K                 ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/AuboRobotMetaType.h:33:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KARM_DOF[m[K’
+ enum {ARM_DOF = 6};          /** 机械臂关节数 **/
+[01;32m[K       ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/otg/OtgType3Com.h:14:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+ #define ARM_DOF 6
+[01;32m[K                 ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/AuboRobotMetaType.h:33:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KARM_DOF[m[K’
+ enum {ARM_DOF = 6};          /** 机械臂关节数 **/
+[01;32m[K       ^[m[K
+In file included from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/aubo_driver.h:44:0[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:8[m[K:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/AuboRobotMetaType.h:858:17:[m[K [01;31m[Kerror: [m[K‘[01m[KInterfaceCallSuccCode[m[K’ is not a member of ‘[01m[Kaubo_robot_namespace[m[K’
+     ErrnoSucc = aubo_robot_namespace::InterfaceCallSuccCode,  /** 成功　**/
+[01;32m[K                 ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/AuboRobotMetaType.h:858:17:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/AuboRobotMetaType.h:853:5:[m[K [01;36m[Knote: [m[K  ‘[01m[KInterfaceCallSuccCode[m[K’
+     InterfaceCallSuccCode = 0,          //接口调用成功的返回值
+[01;32m[K     ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/AuboRobotMetaType.h:909:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ }
+[01;32m[K ^[m[K
+make[2]: *** [CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/openloop_control.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

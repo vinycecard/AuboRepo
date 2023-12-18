@@ -1,0 +1,17 @@
+<launch>
+
+<!--node name="rqt_plot_1" pkg="rqt_plot" type="rqt_plot" args="topics /joint_states/position[0] /joint_states/position[1] /joint_states/position[2] /joint_states/position[3] /joint_states/position[4] /joint_states/position[5]"/-->
+
+<node name="rqt_plot_2" pkg="rqt_plot" type="rqt_plot" args="topics /ref_position/point/x /ref_position/point/y /ref_position/point/z eff_position/point/x /eff_position/point/y /eff_position/point/z"/>
+
+<node name="rqt_plot_3" pkg="rqt_plot" type="rqt_plot" args="topics /ref_orientation/quaternion/x /ref_orientation/quaternion/y /ref_orientation/quaternion/z /ref_orientation/quaternion/w /eff_orientation/quaternion/x /eff_orientation/quaternion/y /eff_orientation/quaternion/z /eff_orientation/quaternion/w"/>
+
+<!--node name="rqt_plot_4" pkg="rqt_plot" type="rqt_plot" args="topics /position_error/point/x /position_error/point/y /position_error/point/z"/-->
+
+<!--node name="rqt_plot_5" pkg="rqt_plot" type="rqt_plot" args="topics /orientation_error/quaternion/x /orientation_error/quaternion/y /orientation_error/quaternion/z /orientation_error/quaternion/w"/-->
+
+<node name="rqt_plot_6" pkg="rqt_plot" type="rqt_plot" args="topics /vel_ctrl/velocity[0] /vel_ctrl/velocity[1] /vel_ctrl/velocity[2] /vel_ctrl/velocity[3] /vel_ctrl/velocity[4] /vel_ctrl/velocity[5]"/>
+
+<node name="rqt_plot_7" pkg="rqt_plot" type="rqt_plot" args="topics /kin_ctrl/velocity[0] /kin_ctrl/velocity[1] /kin_ctrl/velocity[2] /kin_ctrl/velocity[3] /kin_ctrl/velocity[4] /kin_ctrl/velocity[5] /actual_vel/velocity[0] /actual_vel/velocity[1] /actual_vel/velocity[2] /actual_vel/velocity[3] /actual_vel/velocity[4] /actual_vel/velocity[5]"/>
+
+</launch>

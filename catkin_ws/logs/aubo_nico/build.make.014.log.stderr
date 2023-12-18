@@ -1,0 +1,4 @@
+In file included from [01m[K/home/nicolas/catkin_ws/src/aubo_nico/src/aubo_robot.cpp:1:0[m[K:
+[01m[K/home/nicolas/catkin_ws/src/aubo_nico/include/aubo_robot.h:17:12:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int ret = 1;
+[01;32m[K            ^[m[K

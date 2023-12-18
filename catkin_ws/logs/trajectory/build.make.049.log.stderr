@@ -1,0 +1,6 @@
+CMakeFiles/joint_control.dir/src/joint_control.cpp.o: In function `message_filters::Connection message_filters::SimpleFilter<sensor_msgs::JointState_<std::allocator<void> > >::registerCallback<JointControl, boost::shared_ptr<sensor_msgs::JointState_<std::allocator<void> > const> const&>(void (JointControl::*)(boost::shared_ptr<sensor_msgs::JointState_<std::allocator<void> > const> const&), JointControl*)':
+joint_control.cpp:(.text._ZN15message_filters12SimpleFilterIN11sensor_msgs11JointState_ISaIvEEEE16registerCallbackI12JointControlRKN5boost10shared_ptrIKS4_EEEENS_10ConnectionEMT_FvT0_EPSF_[_ZN15message_filters12SimpleFilterIN11sensor_msgs11JointState_ISaIvEEEE16registerCallbackI12JointControlRKN5boost10shared_ptrIKS4_EEEENS_10ConnectionEMT_FvT0_EPSF_]+0xd4): undefined reference to `message_filters::Connection::Connection(boost::function<void ()> const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/nicolas/catkin_ws/devel/.private/trajectory/lib/trajectory/joint_control] Error 1
+make[1]: *** [CMakeFiles/joint_control.dir/all] Error 2
+make: *** [all] Error 2

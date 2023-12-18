@@ -1,0 +1,7 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:[m[K In member function ‘[01m[Kvoid JointControl::publishJointCommand()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:213:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_command_pub[m[K’ was not declared in this scope
+   joint_command_pub.publish(joint_command);
+[01;32m[K   ^[m[K
+make[2]: *** [CMakeFiles/jointposcontrol.dir/src/jointposcontrol.cpp.o] Error 1
+make[1]: *** [CMakeFiles/jointposcontrol.dir/all] Error 2
+make: *** [all] Error 2

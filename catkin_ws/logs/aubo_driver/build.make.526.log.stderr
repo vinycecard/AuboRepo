@@ -1,0 +1,7 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:[m[K In member function ‘[01m[Kvoid JointControl::testInitializeDriver(aubo_driver::AuboDriver&)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:236:82:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+   ret =  robot_driver.robot_send_service_.robotServiceSetRealTimeJointStatusPush(bool enable);
+[01;32m[K                                                                                  ^[m[K
+make[2]: *** [CMakeFiles/control_Nico.dir/src/control_Nico.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_Nico.dir/all] Error 2
+make: *** [all] Error 2

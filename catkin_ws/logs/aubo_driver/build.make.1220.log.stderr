@@ -1,0 +1,16 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_control_topic.cpp:[m[K In member function ‘[01m[Kvoid JointControl::publishJointCommand()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_control_topic.cpp:468:33:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Ktrajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >::_time_from_start_type {aka ros::Duration}[m[K’ and ‘[01m[Kros::Time[m[K’)
+   joint_command.time_from_start = ros::Time::now();
+[01;32m[K                                 ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/time.h:57:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_control_topic.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/duration.h:108:20:[m[K [01;36m[Knote: [m[Kcandidate: ros::Duration& ros::Duration::operator=(const ros::Duration&)
+ class ROSTIME_DECL Duration : public DurationBase<Duration>
+[01;32m[K                    ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/duration.h:108:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kros::Time[m[K’ to ‘[01m[Kconst ros::Duration&[m[K’
+[01m[K/opt/ros/kinetic/include/ros/duration.h:108:20:[m[K [01;36m[Knote: [m[Kcandidate: ros::Duration& ros::Duration::operator=(ros::Duration&&)
+[01m[K/opt/ros/kinetic/include/ros/duration.h:108:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kros::Time[m[K’ to ‘[01m[Kros::Duration&&[m[K’
+make[2]: *** [CMakeFiles/force_control_topic.dir/src/force_control_topic.cpp.o] Error 1
+make[1]: *** [CMakeFiles/force_control_topic.dir/all] Error 2
+make: *** [all] Error 2

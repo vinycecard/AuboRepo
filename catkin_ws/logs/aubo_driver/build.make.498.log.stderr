@@ -1,0 +1,5 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:10:22:[m[K [01;31m[Kfatal error: [m[Klogger.cpp: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/control_Nico.dir/src/control_Nico.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_Nico.dir/all] Error 2
+make: *** [all] Error 2

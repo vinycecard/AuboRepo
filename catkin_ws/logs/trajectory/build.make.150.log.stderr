@@ -1,0 +1,7 @@
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:[m[K In function ‘[01m[Kvoid pub_traj_msg()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:70:41:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[K<unresolved overloaded function type>[m[K’ and ‘[01m[Kdouble[m[K’ to binary ‘[01m[Koperator*[m[K’
+   waypoint.positions = ui.data + u.data*left_time;
+[01;32m[K                                         ^[m[K
+make[2]: *** [CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/openloop_control.dir/all] Error 2
+make: *** [all] Error 2

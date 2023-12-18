@@ -1,0 +1,7 @@
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/velocity_estimator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/velocity_estimator.cpp:68:78:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+     joint_states_sub = nh.subscribe("/joint_states", 1, &JointStateCallback, this);
+[01;32m[K                                                                              ^[m[K
+make[2]: *** [CMakeFiles/velocity_estimator.dir/src/velocity_estimator.cpp.o] Error 1
+make[1]: *** [CMakeFiles/velocity_estimator.dir/all] Error 2
+make: *** [all] Error 2

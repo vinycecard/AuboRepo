@@ -1,0 +1,1197 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:[m[K In member function ‘[01m[Kvoid JointControl::execute()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:13:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator>>[m[K’ (operand types are ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ and ‘[01m[Kconst char [12][m[K’)
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K             ^[m[K
+In file included from [01m[K/usr/include/boost/detail/container_fwd.hpp:96:0[m[K,
+                 from [01m[K/usr/include/boost/functional/hash/extensions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/functional/hash/hash.hpp:558[m[K,
+                 from [01m[K/usr/include/boost/functional/hash.hpp:6[m[K,
+                 from [01m[K/usr/include/boost/thread/detail/thread.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:13[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/logger/include/logger/log.h:11[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/aubo_driver.h:50[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:9[m[K:
+[01m[K/usr/include/c++/5/bitset:1462:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, unsigned int _Nb> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::bitset<_Nb>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is, bitset<_Nb>& __x)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bitset:1462:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/boost/config/no_tr1/complex.hpp:21:0[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/complex:493:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::complex<_Tp>&)
+     operator>>(basic_istream<_CharT, _Traits>& __is, complex<_Tp>& __x)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/complex:493:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:418:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Get_time<_CharT>)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Get_time<_CharT> __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:418:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:264:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _MoneyT> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Get_money<_MoneyT>)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Get_money<_MoneyT> __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:264:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:230:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setw)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setw __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:230:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:200:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setprecision)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setprecision __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:200:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:170:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setfill<_CharT>)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setfill<_CharT> __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:170:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:132:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setbase)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setbase __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:132:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:101:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setiosflags)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setiosflags __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:101:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:71:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Resetiosflags)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Resetiosflags __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:71:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:3192:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::piecewise_linear_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:3192:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2976:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::piecewise_constant_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2976:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2761:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::discrete_distribution<_IntType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2761:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2299:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::student_t_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2299:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2225:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::fisher_f_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2225:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2060:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::chi_squared_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2060:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1988:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::lognormal_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1988:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1693:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::binomial_distribution<_IntType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1693:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1425:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::poisson_distribution<_IntType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1425:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1220:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::negative_binomial_distribution<_IntType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1220:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:856:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RandomNumberEngine, unsigned int __k, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::shuffle_order_engine<_RandomNumberEngine, __k>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:856:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:725:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RandomNumberEngine, unsigned int __p, unsigned int __r, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::discard_block_engine<_RandomNumberEngine, __p, __r>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:725:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:657:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _UIntType, unsigned int __w, unsigned int __s, unsigned int __r, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::subtract_with_carry_engine<_UIntType, __w, __s, __r>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:657:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:178:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _UIntType, _UIntType __a, _UIntType __c, _UIntType __m, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::linear_congruential_engine<_UIntType, __a, __c, __m>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:178:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2622:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::extreme_value_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2622:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2546:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::weibull_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2546:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1754:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::exponential_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1754:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2469:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType1, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::gamma_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2469:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1104:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::geometric_distribution<_IntType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1104:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1925:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType1, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::normal_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1925:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:49:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.h:3594:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::bernoulli_distribution&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.h:3594:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2147:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::cauchy_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2147:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:960:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::uniform_real_distribution<_IntType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:960:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:898:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::uniform_int_distribution<_IntType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:898:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:505:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _UIntType1, unsigned int __w1, unsigned int __n1, unsigned int __m1, unsigned int __r1, _UIntType1 __a1, unsigned int __u1, _UIntType1 __d1, unsigned int __s1, _UIntType1 __b1, unsigned int __t1, _UIntType1 __c1, unsigned int __l1, _UIntType1 __f1, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:505:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/iostream:40:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/istream:924:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Tp> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&&, _Tp&)
+     operator>>(basic_istream<_CharT, _Traits>&& __is, _Tp& __x)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/istream:924:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/iostream:40:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/istream:808:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char*)
+     operator>>(basic_istream<char, _Traits>& __in, signed char* __s)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/istream:808:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<char, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/iostream:40:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/istream:803:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char*)
+     operator>>(basic_istream<char, _Traits>& __in, unsigned char* __s)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/istream:803:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<char, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/iostream:40:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/istream:761:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char&)
+     operator>>(basic_istream<char, _Traits>& __in, signed char& __c)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/istream:761:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<char, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/iostream:40:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/istream:756:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char&)
+     operator>>(basic_istream<char, _Traits>& __in, unsigned char& __c)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/istream:756:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<char, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/istream:934:0[m[K,
+                 from [01m[K/usr/include/c++/5/iostream:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/istream.tcc:923:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT&)
+     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT& __c)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/istream.tcc:923:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/istream:934:0[m[K,
+                 from [01m[K/usr/include/c++/5/iostream:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/istream.tcc:955:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT2, class _Traits2> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT2*)
+     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT* __s)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/istream.tcc:955:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/c++/5/string:53:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/platform.h:55[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/basic_string.tcc:1441:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator>>(basic_istream<_CharT, _Traits>& __in,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/basic_string.tcc:1441:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:267:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+   std::cout >> "Initialized" << std::endl;
+[01;32m[K                ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:12:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator>>[m[K’ (operand types are ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ and ‘[01m[Kconst char [15][m[K’)
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K            ^[m[K
+In file included from [01m[K/usr/include/boost/detail/container_fwd.hpp:96:0[m[K,
+                 from [01m[K/usr/include/boost/functional/hash/extensions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/functional/hash/hash.hpp:558[m[K,
+                 from [01m[K/usr/include/boost/functional/hash.hpp:6[m[K,
+                 from [01m[K/usr/include/boost/thread/detail/thread.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:13[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/logger/include/logger/log.h:11[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/aubo_driver.h:50[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:9[m[K:
+[01m[K/usr/include/c++/5/bitset:1462:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, unsigned int _Nb> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::bitset<_Nb>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is, bitset<_Nb>& __x)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bitset:1462:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/boost/config/no_tr1/complex.hpp:21:0[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/complex:493:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::complex<_Tp>&)
+     operator>>(basic_istream<_CharT, _Traits>& __is, complex<_Tp>& __x)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/complex:493:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:418:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Get_time<_CharT>)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Get_time<_CharT> __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:418:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:264:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _MoneyT> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Get_money<_MoneyT>)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Get_money<_MoneyT> __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:264:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:230:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setw)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setw __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:230:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:200:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setprecision)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setprecision __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:200:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:170:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setfill<_CharT>)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setfill<_CharT> __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:170:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:132:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setbase)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setbase __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:132:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:101:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setiosflags)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setiosflags __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:101:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:71:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Resetiosflags)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Resetiosflags __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:71:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:3192:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::piecewise_linear_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:3192:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2976:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::piecewise_constant_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2976:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2761:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::discrete_distribution<_IntType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2761:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2299:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::student_t_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2299:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2225:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::fisher_f_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2225:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2060:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::chi_squared_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2060:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1988:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::lognormal_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1988:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1693:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::binomial_distribution<_IntType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1693:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1425:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::poisson_distribution<_IntType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1425:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1220:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::negative_binomial_distribution<_IntType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1220:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:856:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RandomNumberEngine, unsigned int __k, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::shuffle_order_engine<_RandomNumberEngine, __k>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:856:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:725:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RandomNumberEngine, unsigned int __p, unsigned int __r, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::discard_block_engine<_RandomNumberEngine, __p, __r>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:725:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:657:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _UIntType, unsigned int __w, unsigned int __s, unsigned int __r, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::subtract_with_carry_engine<_UIntType, __w, __s, __r>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:657:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:178:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _UIntType, _UIntType __a, _UIntType __c, _UIntType __m, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::linear_congruential_engine<_UIntType, __a, __c, __m>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:178:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2622:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::extreme_value_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2622:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2546:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::weibull_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2546:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1754:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::exponential_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1754:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2469:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType1, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::gamma_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2469:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1104:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::geometric_distribution<_IntType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1104:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1925:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType1, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::normal_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1925:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:49:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.h:3594:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::bernoulli_distribution&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.h:3594:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2147:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::cauchy_distribution<_RealType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2147:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:960:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::uniform_real_distribution<_IntType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:960:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:898:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::uniform_int_distribution<_IntType>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:898:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:505:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _UIntType1, unsigned int __w1, unsigned int __n1, unsigned int __m1, unsigned int __r1, _UIntType1 __a1, unsigned int __u1, _UIntType1 __d1, unsigned int __s1, _UIntType1 __b1, unsigned int __t1, _UIntType1 __c1, unsigned int __l1, _UIntType1 __f1, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:505:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/iostream:40:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/istream:924:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Tp> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&&, _Tp&)
+     operator>>(basic_istream<_CharT, _Traits>&& __is, _Tp& __x)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/istream:924:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/iostream:40:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/istream:808:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char*)
+     operator>>(basic_istream<char, _Traits>& __in, signed char* __s)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/istream:808:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<char, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/iostream:40:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/istream:803:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char*)
+     operator>>(basic_istream<char, _Traits>& __in, unsigned char* __s)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/istream:803:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<char, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/iostream:40:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/istream:761:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char&)
+     operator>>(basic_istream<char, _Traits>& __in, signed char& __c)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/istream:761:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<char, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/iostream:40:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/istream:756:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char&)
+     operator>>(basic_istream<char, _Traits>& __in, unsigned char& __c)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/istream:756:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<char, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/istream:934:0[m[K,
+                 from [01m[K/usr/include/c++/5/iostream:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/istream.tcc:923:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT&)
+     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT& __c)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/istream.tcc:923:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/istream:934:0[m[K,
+                 from [01m[K/usr/include/c++/5/iostream:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/istream.tcc:955:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT2, class _Traits2> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT2*)
+     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT* __s)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/istream.tcc:955:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+In file included from [01m[K/usr/include/c++/5/string:53:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/platform.h:55[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/basic_string.tcc:1441:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator>>(basic_istream<_CharT, _Traits>& __in,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/basic_string.tcc:1441:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:300:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+  std::cout >> "Before Execute" << std::endl;
+[01;32m[K               ^[m[K
+make[2]: *** [CMakeFiles/jointposcontrol.dir/src/jointposcontrol.cpp.o] Error 1
+make[1]: *** [CMakeFiles/jointposcontrol.dir/all] Error 2
+make: *** [all] Error 2

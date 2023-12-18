@@ -1,0 +1,7 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:40:22:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+  ros::Rate loop_rate(100);
+[01;32m[K                      ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:40:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+make[2]: *** [CMakeFiles/control_Nico.dir/src/control_Nico.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_Nico.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,13 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:[m[K In member function ‘[01m[Kvoid JointControl::record_addtoLog()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:548:23:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kconst struct Eigen::MatrixExponentialReturnValue<Eigen::Matrix<double, -1, -1> >[m[K’
+    std::cout << I.exp() << std::endl;
+[01;32m[K                       ^[m[K
+In file included from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/Core:346:0[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/Dense:1[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:6[m[K:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/src/Core/util/ForwardDeclarations.h:284:35:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstruct Eigen::MatrixExponentialReturnValue<Eigen::Matrix<double, -1, -1> >[m[K’
+ template<typename Derived> struct MatrixExponentialReturnValue;
+[01;32m[K                                   ^[m[K
+make[2]: *** [CMakeFiles/control_Nico.dir/src/control_Nico.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_Nico.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,33 @@
+
+<launch>
+
+<!--parameters:
+ 
+amplitude: Amplitude of sinusoid (rad)
+wp: Frequency of sinusoid (rad/s)	
+
+trajectory: 
+0 - sinusoid (A*sin(wp*t))
+1 - velocity squarewave (wp) (rad/s)
+
+target_topic:
+0 - /moveItController_cmd
+1 - /joint_path_command
+
+frequency: Frequency of ros loop (and messages are published) 180.5
+
+-->
+
+
+
+<node name = "openloop_control" pkg = "trajectory" type = "openloop_control" args = "1.0 0.20 1 0 180.5" />
+<!--										       A   wp      f	output="screen"	-->
+
+<!--
+<node name="rqt_plot_1" pkg="rqt_plot" type="rqt_plot" args="topics /joint_states/position[5] /moveItController_cmd/positions[5] /moveItController_cmd/velocities[5]"/>
+-->
+<!--
+<node name="rqt_plot_2" pkg="rqt_plot" type="rqt_plot" args="topics /moveItController_cmd/positions[5] /moveItController_cmd/velocities[5] /moveItController_cmd/accelerations[5]"/>
+-->
+
+</launch>

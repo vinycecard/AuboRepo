@@ -1,0 +1,880 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:[m[K In member function ‘[01m[Kvoid JointControl::execute_online()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:28:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kstd::basic_ostream<char>[m[K’ and ‘[01m[K<unresolved overloaded function type>[m[K’)
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/usr/include/c++/5/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/ostream:108:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:108:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}[m[K’
+[01m[K/usr/include/c++/5/ostream:117:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:117:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}[m[K’
+[01m[K/usr/include/c++/5/ostream:127:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:127:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::ios_base& (*)(std::ios_base&)[m[K’
+[01m[K/usr/include/c++/5/ostream:166:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:166:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Klong int[m[K’
+[01m[K/usr/include/c++/5/ostream:170:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:170:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Klong unsigned int[m[K’
+[01m[K/usr/include/c++/5/ostream:174:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:174:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kbool[m[K’
+In file included from [01m[K/usr/include/c++/5/ostream:638:0[m[K,
+                 from [01m[K/usr/include/c++/5/iostream:39[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/ostream.tcc:91:5:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/ostream.tcc:91:5:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kshort int[m[K’
+In file included from [01m[K/usr/include/c++/5/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/ostream:181:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:181:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kshort unsigned int[m[K’
+In file included from [01m[K/usr/include/c++/5/ostream:638:0[m[K,
+                 from [01m[K/usr/include/c++/5/iostream:39[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/ostream.tcc:105:5:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/ostream.tcc:105:5:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kint[m[K’
+In file included from [01m[K/usr/include/c++/5/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/ostream:192:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:192:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kunsigned int[m[K’
+[01m[K/usr/include/c++/5/ostream:201:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:201:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Klong long int[m[K’
+[01m[K/usr/include/c++/5/ostream:205:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:205:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Klong long unsigned int[m[K’
+[01m[K/usr/include/c++/5/ostream:220:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:220:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kdouble[m[K’
+[01m[K/usr/include/c++/5/ostream:224:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:224:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kfloat[m[K’
+[01m[K/usr/include/c++/5/ostream:232:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:232:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Klong double[m[K’
+[01m[K/usr/include/c++/5/ostream:245:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:245:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kconst void*[m[K’
+In file included from [01m[K/usr/include/c++/5/ostream:638:0[m[K,
+                 from [01m[K/usr/include/c++/5/iostream:39[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/ostream.tcc:119:5:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/ostream.tcc:119:5:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}[m[K’
+In file included from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:52:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h:192:15:[m[K [01;36m[Knote: [m[Kcandidate: std::ostream& operator<<(std::ostream&, const XmlRpc::XmlRpcValue&)
+ std::ostream& operator<<(std::ostream& os, const XmlRpc::XmlRpcValue& v);
+[01;32m[K               ^[m[K
+[01m[K/opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h:192:15:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kconst XmlRpc::XmlRpcValue&[m[K’
+In file included from [01m[K/usr/include/boost/detail/container_fwd.hpp:96:0[m[K,
+                 from [01m[K/usr/include/boost/functional/hash/extensions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/functional/hash/hash.hpp:558[m[K,
+                 from [01m[K/usr/include/boost/functional/hash.hpp:6[m[K,
+                 from [01m[K/usr/include/boost/thread/detail/thread.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:13[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/logger/include/logger/log.h:11[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/aubo_driver.h:50[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:9[m[K:
+[01m[K/usr/include/c++/5/bitset:1530:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, unsigned int _Nb> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::bitset<_Nb>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bitset:1530:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::bitset<_Nb>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::bitset<_Nb>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/aubo_driver.h:29:0[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:9[m[K:
+[01m[K/usr/include/c++/5/thread:243:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::thread::id)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/thread:243:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’ (type ‘[01m[K<unresolved overloaded function type>[m[K’) to type ‘[01m[Kstd::thread::id[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:82:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/shared_ptr.h:66:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__shared_ptr<_Tp, _Lp>&)
+     operator<<(std::basic_ostream<_Ch, _Tr>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/shared_ptr.h:66:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/boost/config/no_tr1/complex.hpp:21:0[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/complex:526:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::complex<_Tp>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/complex:526:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:363:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_time<_CharT>)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:363:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::_Put_time<_CharT>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::_Put_time<_CharT>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:311:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_money<_MoneyT>)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:311:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::_Put_money<_MoneyT>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::_Put_money<_MoneyT>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:238:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setw)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:238:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’ (type ‘[01m[K<unresolved overloaded function type>[m[K’) to type ‘[01m[Kstd::_Setw[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:208:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setprecision)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:208:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’ (type ‘[01m[K<unresolved overloaded function type>[m[K’) to type ‘[01m[Kstd::_Setprecision[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:178:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setfill<_CharT>)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:178:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::_Setfill<_CharT>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::_Setfill<_CharT>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:143:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setbase)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:143:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’ (type ‘[01m[K<unresolved overloaded function type>[m[K’) to type ‘[01m[Kstd::_Setbase[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:109:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setiosflags)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:109:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’ (type ‘[01m[K<unresolved overloaded function type>[m[K’) to type ‘[01m[Kstd::_Setiosflags[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/iomanip:79:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Resetiosflags)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:79:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’ (type ‘[01m[K<unresolved overloaded function type>[m[K’) to type ‘[01m[Kstd::_Resetiosflags[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:3160:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::piecewise_linear_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:3160:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::piecewise_linear_distribution<_RealType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::piecewise_linear_distribution<_RealType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2944:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::piecewise_constant_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2944:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::piecewise_constant_distribution<_RealType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::piecewise_constant_distribution<_RealType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2734:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::discrete_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2734:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::discrete_distribution<_IntType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::discrete_distribution<_IntType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2275:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::student_t_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2275:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::student_t_distribution<_RealType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::student_t_distribution<_RealType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2200:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::fisher_f_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2200:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::fisher_f_distribution<_RealType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::fisher_f_distribution<_RealType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2036:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::chi_squared_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2036:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chi_squared_distribution<_RealType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chi_squared_distribution<_RealType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1963:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::lognormal_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1963:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::lognormal_distribution<_RealType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::lognormal_distribution<_RealType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1667:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::binomial_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1667:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::binomial_distribution<_IntType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::binomial_distribution<_IntType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1400:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::poisson_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1400:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::poisson_distribution<_IntType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::poisson_distribution<_IntType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1195:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::negative_binomial_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1195:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::negative_binomial_distribution<_IntType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::negative_binomial_distribution<_IntType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:831:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RandomNumberEngine, unsigned int __k, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::shuffle_order_engine<_RandomNumberEngine, __k>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:831:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::shuffle_order_engine<_RandomNumberEngine, __k>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::shuffle_order_engine<_RandomNumberEngine, __k>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:702:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RandomNumberEngine, unsigned int __p, unsigned int __r, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::discard_block_engine<_RandomNumberEngine, __p, __r>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:702:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::discard_block_engine<_RandomNumberEngine, __p, __r>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::discard_block_engine<_RandomNumberEngine, __p, __r>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:632:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _UIntType, unsigned int __w, unsigned int __s, unsigned int __r, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::subtract_with_carry_engine<_UIntType, __w, __s, __r>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:632:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::subtract_with_carry_engine<_UIntType, __w, __s, __r>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::subtract_with_carry_engine<_UIntType, __w, __s, __r>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:156:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _UIntType, _UIntType __a, _UIntType __c, _UIntType __m, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::linear_congruential_engine<_UIntType, __a, __c, __m>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:156:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::linear_congruential_engine<_UIntType, __a, __c, __m>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::linear_congruential_engine<_UIntType, __a, __c, __m>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2598:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::extreme_value_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2598:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::extreme_value_distribution<_RealType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::extreme_value_distribution<_RealType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2522:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::weibull_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2522:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::weibull_distribution<_RealType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::weibull_distribution<_RealType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1731:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::exponential_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1731:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::exponential_distribution<_RealType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::exponential_distribution<_RealType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2444:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::gamma_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2444:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::gamma_distribution<_RealType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::gamma_distribution<_RealType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1080:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::geometric_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1080:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::geometric_distribution<_IntType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::geometric_distribution<_IntType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:1898:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::normal_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:1898:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::normal_distribution<_RealType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::normal_distribution<_RealType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:998:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::bernoulli_distribution&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:998:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’ (type ‘[01m[K<unresolved overloaded function type>[m[K’) to type ‘[01m[Kconst std::bernoulli_distribution&[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:2123:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::cauchy_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:2123:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::cauchy_distribution<_RealType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::cauchy_distribution<_RealType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:936:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::uniform_real_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:936:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::uniform_real_distribution<_IntType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::uniform_real_distribution<_IntType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:877:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::uniform_int_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:877:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::uniform_int_distribution<_IntType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::uniform_int_distribution<_IntType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:51:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.tcc:477:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _UIntType1, unsigned int __w1, unsigned int __n1, unsigned int __m1, unsigned int __r1, _UIntType1 __a1, unsigned int __u1, _UIntType1 __d1, unsigned int __s1, _UIntType1 __b1, unsigned int __t1, _UIntType1 __c1, unsigned int __l1, _UIntType1 __f1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.tcc:477:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/random:49:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/random.h:1269:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _RandomNumberEngine, unsigned int __w, class _UIntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/random.h:1269:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/ostream:628:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Tp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&)
+     operator<<(basic_ostream<_CharT, _Traits>&& __os, const _Tp& __x)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/ostream:628:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  couldn't deduce template parameter ‘[01m[K_Tp[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/ostream:574:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/ostream:574:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’ (type ‘[01m[K<unresolved overloaded function type>[m[K’) to type ‘[01m[Kconst unsigned char*[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/ostream:569:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/ostream:569:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’ (type ‘[01m[K<unresolved overloaded function type>[m[K’) to type ‘[01m[Kconst signed char*[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/ostream:556:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/ostream:556:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’ (type ‘[01m[K<unresolved overloaded function type>[m[K’) to type ‘[01m[Kconst char*[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/ostream:638:0[m[K,
+                 from [01m[K/usr/include/c++/5/iostream:39[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’ (type ‘[01m[K<unresolved overloaded function type>[m[K’) to type ‘[01m[Kconst char*[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/ostream:539:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/ostream:539:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/usr/include/c++/5/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/ostream:519:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/ostream:519:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’ (type ‘[01m[K<unresolved overloaded function type>[m[K’) to type ‘[01m[Kunsigned char[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/ostream:514:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/ostream:514:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’ (type ‘[01m[K<unresolved overloaded function type>[m[K’) to type ‘[01m[Ksigned char[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/ostream:508:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/ostream:508:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’ (type ‘[01m[K<unresolved overloaded function type>[m[K’) to type ‘[01m[Kchar[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/ostream:502:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/ostream:502:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’ (type ‘[01m[K<unresolved overloaded function type>[m[K’) to type ‘[01m[Kchar[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/ostream:497:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/ostream:497:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/ios_base.h:46:0[m[K,
+                 from [01m[K/usr/include/c++/5/ios:42[m[K,
+                 from [01m[K/usr/include/c++/5/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/5/iostream:39[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/system_error:209:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/system_error:209:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’ (type ‘[01m[K<unresolved overloaded function type>[m[K’) to type ‘[01m[Kconst std::error_code&[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/string:52:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/platform.h:55[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/basic_string.h:5172:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/basic_string.h:5172:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+In file included from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/Core:412:0[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/Dense:1[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:7[m[K:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/src/Core/IO.h:216:16:[m[K [01;36m[Knote: [m[Kcandidate: template<class Derived> std::ostream& Eigen::operator<<(std::ostream&, const Eigen::DenseBase<Derived>&)
+ std::ostream & operator <<
+[01;32m[K                ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/src/Core/IO.h:216:16:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[KEigen::DenseBase<Eigen::Matrix<double, -1, 1> >::ConstTransposeReturnType (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const {aka const Eigen::Transpose<const Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)() const}[m[K’
+    std::cout << "## pd = " << pd.transpose << std::endl;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[KEigen::Transpose<Eigen::Matrix<double, -1, 1> > (Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::*)()[m[K’
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:695:34:[m[K [01;36m[Knote: [m[K  could not resolve address from overloaded function ‘[01m[K((JointControl*)this)->JointControl::pd.Eigen::DenseBase<Eigen::Matrix<double, -1, 1> >::transpose[m[K’
+make[2]: *** [CMakeFiles/force_offline_traj.dir/src/force_offline_traj.cpp.o] Error 1
+make[1]: *** [CMakeFiles/force_offline_traj.dir/all] Error 2
+make: *** [all] Error 2

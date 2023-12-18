@@ -1,0 +1,28 @@
+[  3%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/moveit_tutorials/lib/moveit_tutorials/ros_api_tutorial[0m
+[  6%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/moveit_tutorials/lib/moveit_tutorials/robot_model_and_robot_state_tutorial[0m
+[ 10%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/moveit_tutorials/lib/moveit_tutorials/planning_scene_tutorial[0m
+[ 13%] Built target planning_scene_tutorial
+[ 16%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/moveit_tutorials/lib/moveit_tutorials/planning_scene_ros_api_tutorial[0m
+[ 20%] Built target ros_api_tutorial
+[ 23%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/moveit_tutorials/lib/moveit_tutorials/planning_scene_ros_api_aubo_i5[0m
+[ 26%] Built target robot_model_and_robot_state_tutorial
+[ 30%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/moveit_tutorials/lib/moveit_tutorials/motion_planning_api_tutorial[0m
+[ 33%] Built target planning_scene_ros_api_tutorial
+[ 36%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/moveit_tutorials/lib/moveit_tutorials/motion_planning_pipeline_tutorial[0m
+[ 40%] Built target planning_scene_ros_api_aubo_i5
+[ 43%] [32m[1mLinking CXX shared library /home/nicolas/catkin_ws/devel/.private/moveit_tutorials/lib/libinteractivity_utils.so[0m
+[ 46%] Built target motion_planning_api_tutorial
+[ 50%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/moveit_tutorials/lib/moveit_tutorials/move_group_interface_tutorial[0m
+[ 60%] Built target interactivity_utils
+[ 63%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/moveit_tutorials/lib/moveit_tutorials/state_display_tutorial[0m
+[ 66%] Built target state_display_tutorial
+[ 70%] Built target motion_planning_pipeline_tutorial
+[ 73%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/moveit_tutorials/lib/moveit_tutorials/pick_place_tutorial[0m
+[ 76%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/moveit_tutorials/lib/moveit_tutorials/cylinder_segment[0m
+[ 80%] Built target move_group_interface_tutorial
+[ 83%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/moveit_tutorials/lib/moveit_tutorials/bag_publisher_maintain_time[0m
+[ 86%] Built target pick_place_tutorial
+[ 90%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/moveit_tutorials/lib/moveit_tutorials/visualizing_collisions_tutorial[0m
+[ 93%] Built target visualizing_collisions_tutorial
+[ 96%] Built target bag_publisher_maintain_time
+[100%] Built target cylinder_segment

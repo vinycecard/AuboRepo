@@ -1,0 +1,37 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:[m[K In member function ‘[01m[Kvoid JointControl::testMoveLoop(aubo_driver::AuboDriver&)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:600:6:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+=[m[K’ (operand types are ‘[01m[KEigen::VectorXd {aka Eigen::Matrix<double, -1, 1>}[m[K’ and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+   ui += {0.01, 0.01, 0.01, 0.01, 0.01, 0.01};
+[01;32m[K      ^[m[K
+In file included from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/Core:415:0[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/Dense:1[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:6[m[K:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/src/Core/MatrixBase.h:158:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::Matrix<double, -1, 1>]
+     Derived& operator+=(const MatrixBase<OtherDerived>& other);
+[01;32m[K              ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/src/Core/MatrixBase.h:158:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:600:6:[m[K [01;36m[Knote: [m[K  couldn't deduce template parameter ‘[01m[KOtherDerived[m[K’
+   ui += {0.01, 0.01, 0.01, 0.01, 0.01, 0.01};
+[01;32m[K      ^[m[K
+In file included from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/Core:415:0[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/Dense:1[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:6[m[K:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/src/Core/MatrixBase.h:476:46:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::ArrayBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::Matrix<double, -1, 1>]
+     template<typename OtherDerived> Derived& operator+=(const ArrayBase<OtherDerived>& )
+[01;32m[K                                              ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/src/Core/MatrixBase.h:476:46:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:600:6:[m[K [01;36m[Knote: [m[K  couldn't deduce template parameter ‘[01m[KOtherDerived[m[K’
+   ui += {0.01, 0.01, 0.01, 0.01, 0.01, 0.01};
+[01;32m[K      ^[m[K
+In file included from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/Core:414:0[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/Dense:1[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:6[m[K:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/src/Core/DenseBase.h:289:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Derived& Eigen::DenseBase<Derived>::operator+=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::Matrix<double, -1, 1>]
+     Derived& operator+=(const EigenBase<OtherDerived> &other);
+[01;32m[K              ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/src/Core/DenseBase.h:289:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:600:6:[m[K [01;36m[Knote: [m[K  couldn't deduce template parameter ‘[01m[KOtherDerived[m[K’
+   ui += {0.01, 0.01, 0.01, 0.01, 0.01, 0.01};
+[01;32m[K      ^[m[K
+make[2]: *** [CMakeFiles/control_Nico.dir/src/control_Nico.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_Nico.dir/all] Error 2
+make: *** [all] Error 2

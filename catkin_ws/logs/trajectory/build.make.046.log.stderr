@@ -1,0 +1,7 @@
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:[m[K In constructor ‘[01m[KJointControl::JointControl(int, char**)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:155:73:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function
+   msg_filter_sub.registerCallback(JointControl::JointStateCallback, this);
+[01;32m[K                                                                         ^[m[K
+make[2]: *** [CMakeFiles/joint_control.dir/src/joint_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/joint_control.dir/all] Error 2
+make: *** [all] Error 2

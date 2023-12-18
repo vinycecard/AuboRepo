@@ -1,0 +1,60 @@
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o: In function `aubo_driver::AuboDriver::AuboDriver()':
+openloop_control.cpp:(.text+0xd9): undefined reference to `ServiceInterface::ServiceInterface()'
+openloop_control.cpp:(.text+0xf0): undefined reference to `ServiceInterface::ServiceInterface()'
+openloop_control.cpp:(.text+0x155b): undefined reference to `ServiceInterface::~ServiceInterface()'
+openloop_control.cpp:(.text+0x1574): undefined reference to `ServiceInterface::~ServiceInterface()'
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o: In function `aubo_driver::AuboDriver::~AuboDriver()':
+openloop_control.cpp:(.text+0x15b3): undefined reference to `ServiceInterface::robotServiceLeaveTcp2CanbusMode()'
+openloop_control.cpp:(.text+0x15c5): undefined reference to `ServiceInterface::robotServiceLogout()'
+openloop_control.cpp:(.text+0x15d9): undefined reference to `ServiceInterface::robotServiceLogout()'
+openloop_control.cpp:(.text+0x17a5): undefined reference to `ServiceInterface::~ServiceInterface()'
+openloop_control.cpp:(.text+0x17b7): undefined reference to `ServiceInterface::~ServiceInterface()'
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o: In function `aubo_driver::AuboDriver::timerCallback(ros::TimerEvent const&)':
+openloop_control.cpp:(.text+0x181b): undefined reference to `ServiceInterface::robotServiceGetCurrentWaypointInfo(aubo_robot_namespace::wayPoint_S&)'
+openloop_control.cpp:(.text+0x18d6): undefined reference to `ServiceInterface::robotServiceGetRobotDiagnosisInfo(aubo_robot_namespace::RobotDiagnosis&)'
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o: In function `aubo_driver::AuboDriver::setRobotJointsByMoveIt()':
+openloop_control.cpp:(.text+0x2615): undefined reference to `otgVelocityModeParameterUpdate(JointTrajectoryInput)'
+openloop_control.cpp:(.text+0x265d): undefined reference to `otgVelocityModeResult(int, JointTrajectoryOutput&)'
+openloop_control.cpp:(.text+0x273f): undefined reference to `ServiceInterface::robotServiceSetRobotPosData2Canbus(double*)'
+openloop_control.cpp:(.text+0x2917): undefined reference to `ServiceInterface::robotServiceSetRobotPosData2Canbus(double*)'
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o: In function `aubo_driver::AuboDriver::controllerSwitchCallback(boost::shared_ptr<std_msgs::Int32_<std::allocator<void> > const> const&)':
+openloop_control.cpp:(.text+0x2c95): undefined reference to `ServiceInterface::robotServiceLeaveTcp2CanbusMode()'
+openloop_control.cpp:(.text+0x2ec5): undefined reference to `ServiceInterface::robotServiceEnterTcp2CanbusMode()'
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o: In function `aubo_driver::AuboDriver::robotControlCallback(boost::shared_ptr<std_msgs::String_<std::allocator<void> > const> const&)':
+openloop_control.cpp:(.text+0x3941): undefined reference to `ServiceInterface::rootServiceRobotStartup(aubo_robot_namespace::ToolDynamicsParam const&, unsigned char, bool, bool, int, aubo_robot_namespace::ROBOT_SERVICE_STATE&, bool)'
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o: In function `aubo_driver::AuboDriver::AuboAPICallback(boost::shared_ptr<std_msgs::Float32MultiArray_<std::allocator<void> > const> const&)':
+openloop_control.cpp:(.text+0x3eb6): undefined reference to `ServiceInterface::robotServiceJointMove(double*, bool)'
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o: In function `aubo_driver::AuboDriver::connectToRobotController()':
+openloop_control.cpp:(.text+0x431b): undefined reference to `ServiceInterface::robotServiceLogin(char const*, int, char const*, char const*)'
+openloop_control.cpp:(.text+0x4387): undefined reference to `ServiceInterface::robotServiceLogin(char const*, int, char const*, char const*)'
+openloop_control.cpp:(.text+0x43e4): undefined reference to `ServiceInterface::robotServiceGetIsRealRobotExist(bool&)'
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o: In function `aubo_driver::AuboDriver::run()':
+openloop_control.cpp:(.text+0x4794): undefined reference to `ServiceInterface::robotServiceEnterTcp2CanbusMode()'
+openloop_control.cpp:(.text+0x49ca): undefined reference to `ServiceInterface::robotServiceGetCurrentWaypointInfo(aubo_robot_namespace::wayPoint_S&)'
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o: In function `aubo_driver::AuboDriver::publishIOMsg()':
+openloop_control.cpp:(.text+0x4ed6): undefined reference to `ServiceInterface::robotServiceGetBoardIOStatus(std::vector<aubo_robot_namespace::RobotIoType, std::allocator<aubo_robot_namespace::RobotIoType> >, std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+openloop_control.cpp:(.text+0x4f2d): undefined reference to `ServiceInterface::robotServiceGetBoardIOStatus(std::vector<aubo_robot_namespace::RobotIoType, std::allocator<aubo_robot_namespace::RobotIoType> >, std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+openloop_control.cpp:(.text+0x5255): undefined reference to `ServiceInterface::robotServiceGetBoardIOStatus(std::vector<aubo_robot_namespace::RobotIoType, std::allocator<aubo_robot_namespace::RobotIoType> >, std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+openloop_control.cpp:(.text+0x52ac): undefined reference to `ServiceInterface::robotServiceGetBoardIOStatus(std::vector<aubo_robot_namespace::RobotIoType, std::allocator<aubo_robot_namespace::RobotIoType> >, std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+openloop_control.cpp:(.text+0x5541): undefined reference to `ServiceInterface::robotServiceGetBoardIOStatus(std::vector<aubo_robot_namespace::RobotIoType, std::allocator<aubo_robot_namespace::RobotIoType> >, std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o:openloop_control.cpp:(.text+0x5598): more undefined references to `ServiceInterface::robotServiceGetBoardIOStatus(std::vector<aubo_robot_namespace::RobotIoType, std::allocator<aubo_robot_namespace::RobotIoType> >, std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)' follow
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o: In function `aubo_driver::AuboDriver::publishIOMsg()':
+openloop_control.cpp:(.text+0x575d): undefined reference to `ServiceInterface::robotServiceGetAllToolDigitalIOStatus(std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+openloop_control.cpp:(.text+0x5782): undefined reference to `ServiceInterface::robotServiceGetAllToolAIStatus(std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o: In function `aubo_driver::AuboDriver::setIO(aubo_msgs::SetIORequest_<std::allocator<void> >&, aubo_msgs::SetIOResponse_<std::allocator<void> >&)':
+openloop_control.cpp:(.text+0x5c7a): undefined reference to `ServiceInterface::robotServiceSetBoardIOStatus(aubo_robot_namespace::RobotIoType, int, double)'
+openloop_control.cpp:(.text+0x5cf2): undefined reference to `ServiceInterface::robotServiceSetBoardIOStatus(aubo_robot_namespace::RobotIoType, int, double)'
+openloop_control.cpp:(.text+0x5d79): undefined reference to `ServiceInterface::robotServiceSetToolDigitalIOType(aubo_robot_namespace::ToolDigitalIOAddr, aubo_robot_namespace::ToolIOType)'
+openloop_control.cpp:(.text+0x5ddc): undefined reference to `ServiceInterface::robotServiceSetToolDigitalIOType(aubo_robot_namespace::ToolDigitalIOAddr, aubo_robot_namespace::ToolIOType)'
+openloop_control.cpp:(.text+0x5e5b): undefined reference to `ServiceInterface::robotServiceSetToolDOStatus(aubo_robot_namespace::ToolDigitalIOAddr, aubo_robot_namespace::IO_STATUS)'
+openloop_control.cpp:(.text+0x5ed3): undefined reference to `ServiceInterface::robotServiceSetBoardIOStatus(aubo_robot_namespace::RobotIoType, int, double)'
+openloop_control.cpp:(.text+0x5f53): undefined reference to `ServiceInterface::robotServiceSetToolPowerVoltageType(aubo_robot_namespace::ToolPowerType)'
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o:(.rodata+0xcc): undefined reference to `Velocity_Solution_PosTrap(MotionState&)'
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o:(.rodata+0xd0): undefined reference to `Velocity_Solution_PosTri(MotionState&)'
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o:(.rodata+0xd4): undefined reference to `Velocity_Solution_PosLinHldNegLin(MotionState&)'
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o:(.rodata+0xd8): undefined reference to `Velocity_Solution_NegLinHldNegLin(MotionState&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/nicolas/catkin_ws/devel/.private/trajectory/lib/trajectory/openloop_control] Error 1
+make[1]: *** [CMakeFiles/openloop_control.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

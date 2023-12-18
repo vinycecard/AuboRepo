@@ -1,0 +1,21 @@
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:15:13:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::Rate::Rate()[m[K’
+   ros::Rate loop_rate;
+[01;32m[K             ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:39:0[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/rate.h:59:12:[m[K [01;36m[Knote: [m[Kcandidate: ros::Rate::Rate(const ros::Duration&)
+   explicit Rate(const Duration&);
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/rate.h:59:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/kinetic/include/ros/rate.h:58:3:[m[K [01;36m[Knote: [m[Kcandidate: ros::Rate::Rate(double)
+   Rate(double frequency);
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/rate.h:58:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/kinetic/include/ros/rate.h:51:20:[m[K [01;36m[Knote: [m[Kcandidate: ros::Rate::Rate(const ros::Rate&)
+ class ROSTIME_DECL Rate
+[01;32m[K                    ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/rate.h:51:20:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+make[2]: *** [CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/openloop_control.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

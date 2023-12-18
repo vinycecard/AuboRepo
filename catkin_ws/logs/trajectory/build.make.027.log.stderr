@@ -1,0 +1,6 @@
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:43:20:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int counter_sub = 1;
+[01;32m[K                    ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:44:20:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int counter_pub = 1;
+[01;32m[K                    ^[m[K

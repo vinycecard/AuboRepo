@@ -1,0 +1,7 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_control_topic.cpp:[m[K In member function ‘[01m[Kvoid JointControl::publishJointCommand()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_control_topic.cpp:516:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_msgs::JointTrajectoryPoint {aka struct trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kefforts[m[K’
+   joint_command.efforts.at(0) = 0.0;
+[01;32m[K                 ^[m[K
+make[2]: *** [CMakeFiles/force_control_topic.dir/src/force_control_topic.cpp.o] Error 1
+make[1]: *** [CMakeFiles/force_control_topic.dir/all] Error 2
+make: *** [all] Error 2

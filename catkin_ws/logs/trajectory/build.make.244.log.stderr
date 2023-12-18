@@ -1,0 +1,15 @@
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/velocity_estimator.cpp:[m[K In function ‘[01m[Kvoid wait_jointstate()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/velocity_estimator.cpp:29:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ was not declared in this scope
+     std::cout << "wait_jointstate entered" << endl;
+[01;32m[K                                               ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/velocity_estimator.cpp:29:47:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/5/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/trajectory/src/velocity_estimator.cpp:1[m[K:
+[01m[K/usr/include/c++/5/ostream:590:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::endl[m[K’
+     endl(basic_ostream<_CharT, _Traits>& __os)
+[01;32m[K     ^[m[K
+make[2]: *** [CMakeFiles/velocity_estimator.dir/src/velocity_estimator.cpp.o] Error 1
+make[1]: *** [CMakeFiles/velocity_estimator.dir/all] Error 2
+make: *** [all] Error 2

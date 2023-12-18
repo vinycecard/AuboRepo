@@ -1,0 +1,16 @@
+[ 20%] Built target xml_on_the_fly
+[ 46%] Built target initial_conditions
+[ 46%] Built target joint_control
+[ 46%] Built target openloop_control
+[ 46%] Built target filter
+[35m[1mScanning dependencies of target aubo_robot[0m
+[ 76%] Built target trajectory_publisher
+[ 83%] Built target velocity_estimator
+[ 93%] Built target grid_trajectory
+[ 96%] [32mBuilding CXX object CMakeFiles/aubo_robot.dir/src/aubo_robot.cpp.o[0m
+In file included from [01m[K/home/nicolas/catkin_ws/src/aubo_nico/src/aubo_robot.cpp:1:0[m[K:
+[01m[K/home/nicolas/catkin_ws/src/aubo_nico/include/aubo_robot.h:17:12:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int ret = 1;
+[01;32m[K            ^[m[K
+[100%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/aubo_nico/lib/aubo_nico/aubo_robot[0m
+[100%] Built target aubo_robot

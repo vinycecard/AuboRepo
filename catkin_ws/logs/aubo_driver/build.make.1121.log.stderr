@@ -1,0 +1,7 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/sendJointPos.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/sendJointPos.cpp:59:95:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+  sendJointPosLoopRate==0? std::cout << "true" << std::endl : std::cout << "false" << std::endl);
+[01;32m[K                                                                                               ^[m[K
+make[2]: *** [CMakeFiles/sendJointPos.dir/src/sendJointPos.cpp.o] Error 1
+make[1]: *** [CMakeFiles/sendJointPos.dir/all] Error 2
+make: *** [all] Error 2

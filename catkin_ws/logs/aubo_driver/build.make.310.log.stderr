@@ -1,0 +1,7 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/testNico.cpp:[m[K In function ‘[01m[Kvoid testMoveLoop(aubo_driver::AuboDriver&)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/testNico.cpp:96:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_traj_msg[m[K’ was not declared in this scope
+     pub_traj_msg();
+[01;32m[K                  ^[m[K
+make[2]: *** [CMakeFiles/testNico.dir/src/testNico.cpp.o] Error 1
+make[1]: *** [CMakeFiles/testNico.dir/all] Error 2
+make: *** [all] Error 2

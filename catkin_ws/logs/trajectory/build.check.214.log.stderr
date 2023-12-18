@@ -1,0 +1,11 @@
+[31m[1mCMake Error[0m at /home/nicolas/catkin_ws/devel/share/aubo_driver/cmake/aubo_driverConfig.cmake:148 (message):
+  Project 'trajectory' tried to find library 'libauborobotcontroller.so'.
+  The library is neither a target nor built/installed properly.  Did you
+  compile project 'aubo_driver'? Did you find_package() it before the
+  subdirectory containing its code is included?
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:7 (find_package)
+
+
+make: *** [cmake_check_build_system] Error 1

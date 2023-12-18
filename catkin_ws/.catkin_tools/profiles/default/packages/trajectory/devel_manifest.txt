@@ -1,0 +1,12 @@
+trajectory
+/home/nicolas/catkin_ws/devel/.private/trajectory/share/trajectory/cmake/trajectoryConfig-version.cmake /home/nicolas/catkin_ws/devel/share/trajectory/cmake/trajectoryConfig-version.cmake
+/home/nicolas/catkin_ws/devel/.private/trajectory/share/trajectory/cmake/trajectoryConfig.cmake /home/nicolas/catkin_ws/devel/share/trajectory/cmake/trajectoryConfig.cmake
+/home/nicolas/catkin_ws/devel/.private/trajectory/lib/trajectory/filter /home/nicolas/catkin_ws/devel/lib/trajectory/filter
+/home/nicolas/catkin_ws/devel/.private/trajectory/lib/trajectory/joint_control /home/nicolas/catkin_ws/devel/lib/trajectory/joint_control
+/home/nicolas/catkin_ws/devel/.private/trajectory/lib/trajectory/velocity_estimator /home/nicolas/catkin_ws/devel/lib/trajectory/velocity_estimator
+/home/nicolas/catkin_ws/devel/.private/trajectory/lib/trajectory/initial_conditions /home/nicolas/catkin_ws/devel/lib/trajectory/initial_conditions
+/home/nicolas/catkin_ws/devel/.private/trajectory/lib/trajectory/openloop_control /home/nicolas/catkin_ws/devel/lib/trajectory/openloop_control
+/home/nicolas/catkin_ws/devel/.private/trajectory/lib/trajectory/grid_trajectory /home/nicolas/catkin_ws/devel/lib/trajectory/grid_trajectory
+/home/nicolas/catkin_ws/devel/.private/trajectory/lib/trajectory/trajectory_publisher /home/nicolas/catkin_ws/devel/lib/trajectory/trajectory_publisher
+/home/nicolas/catkin_ws/devel/.private/trajectory/lib/trajectory/xml_on_the_fly /home/nicolas/catkin_ws/devel/lib/trajectory/xml_on_the_fly
+/home/nicolas/catkin_ws/devel/.private/trajectory/lib/pkgconfig/trajectory.pc /home/nicolas/catkin_ws/devel/lib/pkgconfig/trajectory.pc

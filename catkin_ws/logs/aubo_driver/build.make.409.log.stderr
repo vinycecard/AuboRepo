@@ -1,0 +1,9 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:42:11:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble JointControl::wp[m[K’
+  double wp, wo, trace_R, trace_dR, g, dg, theta_d, dtheta_d;
+[01;32m[K           ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:20:15:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble JointControl::wp[m[K’
+     double t, wp, frequency, dt, amplitude, left_time, t0, t_new, interval, last_t, tau;
+[01;32m[K               ^[m[K
+make[2]: *** [CMakeFiles/control_Nico.dir/src/control_Nico.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_Nico.dir/all] Error 2
+make: *** [all] Error 2

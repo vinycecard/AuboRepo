@@ -1,0 +1,16 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:[m[K In member function ‘[01m[Kvoid JointControl::reference(double&, Eigen::Vector3d)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:405:31:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<<[m[K’ token
+   static Eigen::Vector3d axis << sqrt(2.0)/2.0, sqrt(2.0)/2.0, 0;
+[01;32m[K                               ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:408:34:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<<[m[K’ token
+   static Eigen::Vector3d axisdot << 0, 0, 0;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:410:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kaxis[m[K’ was not declared in this scope
+   qd = axang2quat(axis, theta);
+[01;32m[K                   ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:411:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kaxisdot[m[K’ was not declared in this scope
+   static Eigen::Vector4d quatdot = axang2quatdot(axis, theta, axisdot, thetadot);
+[01;32m[K                                                               ^[m[K
+make[2]: *** [CMakeFiles/force_offline_traj.dir/src/force_offline_traj.cpp.o] Error 1
+make[1]: *** [CMakeFiles/force_offline_traj.dir/all] Error 2
+make: *** [all] Error 2

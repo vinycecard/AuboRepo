@@ -1,0 +1,8 @@
+prefix=/home/nicolas/catkin_ws/devel/.private/netft_utils
+
+Name: netft_utils
+Description: Description of netft_utils
+Version: 1.0.1
+Cflags: -I/home/nicolas/catkin_ws/devel/.private/netft_utils/include -I/home/nicolas/catkin_ws/src/netft_utils/include
+Libs: -L/home/nicolas/catkin_ws/devel/.private/netft_utils/lib -lnetft_utils_lean -llpfilter
+Requires: message_runtime

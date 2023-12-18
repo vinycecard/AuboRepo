@@ -1,0 +1,7 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:[m[K In member function ‘[01m[Kvoid JointControl::execute()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:696:32:[m[K [01;31m[Kerror: [m[K‘[01m[K((JointControl*)this)->JointControl::loop_rate[m[K’ does not have class type
+    std::cout << dt << " - " << loop_rate.cycleTime().toSec();
+[01;32m[K                                ^[m[K
+make[2]: *** [CMakeFiles/control_Nico.dir/src/control_Nico.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_Nico.dir/all] Error 2
+make: *** [all] Error 2

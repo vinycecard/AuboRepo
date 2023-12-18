@@ -1,0 +1,10 @@
+CMakeFiles/joint_control.dir/src/joint_control.cpp.o: In function `message_filters::TimeSequencer<sensor_msgs::JointState_<std::allocator<void> > >::~TimeSequencer()':
+joint_control.cpp:(.text._ZN15message_filters13TimeSequencerIN11sensor_msgs11JointState_ISaIvEEEED2Ev[_ZN15message_filters13TimeSequencerIN11sensor_msgs11JointState_ISaIvEEEED5Ev]+0x28): undefined reference to `message_filters::Connection::disconnect()'
+CMakeFiles/joint_control.dir/src/joint_control.cpp.o: In function `void message_filters::TimeSequencer<sensor_msgs::JointState_<std::allocator<void> > >::connectInput<message_filters::Subscriber<sensor_msgs::JointState_<std::allocator<void> > > >(message_filters::Subscriber<sensor_msgs::JointState_<std::allocator<void> > >&)':
+joint_control.cpp:(.text._ZN15message_filters13TimeSequencerIN11sensor_msgs11JointState_ISaIvEEEE12connectInputINS_10SubscriberIS4_EEEEvRT_[_ZN15message_filters13TimeSequencerIN11sensor_msgs11JointState_ISaIvEEEE12connectInputINS_10SubscriberIS4_EEEEvRT_]+0x2d): undefined reference to `message_filters::Connection::disconnect()'
+CMakeFiles/joint_control.dir/src/joint_control.cpp.o: In function `message_filters::Connection message_filters::SimpleFilter<sensor_msgs::JointState_<std::allocator<void> > >::registerCallback<ros::MessageEvent<sensor_msgs::JointState_<std::allocator<void> > const> const&>(boost::function<void (ros::MessageEvent<sensor_msgs::JointState_<std::allocator<void> > const> const&)> const&)':
+joint_control.cpp:(.text._ZN15message_filters12SimpleFilterIN11sensor_msgs11JointState_ISaIvEEEE16registerCallbackIRKN3ros12MessageEventIKS4_EEEENS_10ConnectionERKN5boost8functionIFvT_EEE[_ZN15message_filters12SimpleFilterIN11sensor_msgs11JointState_ISaIvEEEE16registerCallbackIRKN3ros12MessageEventIKS4_EEEENS_10ConnectionERKN5boost8functionIFvT_EEE]+0x7e): undefined reference to `message_filters::Connection::Connection(boost::function<void ()> const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/nicolas/catkin_ws/devel/.private/trajectory/lib/trajectory/joint_control] Error 1
+make[1]: *** [CMakeFiles/joint_control.dir/all] Error 2
+make: *** [all] Error 2

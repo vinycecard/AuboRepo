@@ -1,0 +1,13 @@
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:816:26:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   goalpoint.goal_id.id = 'joint_control_node';
+[01;32m[K                          ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:818:47:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   goalpoint.goal.trajectory.header.frame_id = '/world';
+[01;32m[K                                               ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:[m[K In member function ‘[01m[Kvoid JointControl::pub_traj_msg()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:816:24:[m[K [01;35m[Kwarning: [m[Koverflow in implicit constant conversion [-Woverflow]
+   goalpoint.goal_id.id = 'joint_control_node';
+[01;32m[K                        ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:818:45:[m[K [01;35m[Kwarning: [m[Koverflow in implicit constant conversion [-Woverflow]
+   goalpoint.goal.trajectory.header.frame_id = '/world';
+[01;32m[K                                             ^[m[K

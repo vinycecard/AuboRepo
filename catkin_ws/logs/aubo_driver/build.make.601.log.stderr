@@ -1,0 +1,7 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:[m[K In constructor ‘[01m[KJointControl::JointControl(int, char**)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:111:2:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[KTimingLog[m[K’ is not a direct base of ‘[01m[KJointControl[m[K’
+  TimingLog("/logs/aubo_driver/control_Nico")
+[01;32m[K  ^[m[K
+make[2]: *** [CMakeFiles/control_Nico.dir/src/control_Nico.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_Nico.dir/all] Error 2
+make: *** [all] Error 2

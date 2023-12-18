@@ -1,0 +1,9 @@
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o:(.rodata+0x74): undefined reference to `Velocity_Solution_PosTrap(MotionState&)'
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o:(.rodata+0x78): undefined reference to `Velocity_Solution_PosTri(MotionState&)'
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o:(.rodata+0x7c): undefined reference to `Velocity_Solution_PosLinHldNegLin(MotionState&)'
+CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o:(.rodata+0x80): undefined reference to `Velocity_Solution_NegLinHldNegLin(MotionState&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/nicolas/catkin_ws/devel/.private/trajectory/lib/trajectory/openloop_control] Error 1
+make[1]: *** [CMakeFiles/openloop_control.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

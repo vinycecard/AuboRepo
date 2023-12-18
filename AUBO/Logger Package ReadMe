@@ -1,0 +1,24 @@
+msgRecordSub = nodeHandle.subscribe<std_msgs::Bool>(getName() + "/record", 5, &DorisManipulatorControllerNodelet::RecordCallback, this);
+
+void doris_manipulator_controller::DorisManipulatorControllerNodelet::RecordCallback(const std_msgs::Bool::ConstPtr &msg)
+{
+    setRecording(msg->data);
+}
+
+
+doris_manipulator_controller::DorisManipulatorController::DorisManipulatorController(): TimingLog("/logs/doris_manipulator_controller")
+
+{
+
+
+
+   addToLog(std::to_string(eposVelocities[number]), "epos_vel" + std::to_string(number));
+
+
+ for (unsigned int i = 0; i < 4; i++)
+    {
+        addToLog(std::to_string(error(i)), "error" + std::to_string(i));
+        addToLog(std::to_string(xd(i)), "xd" + std::to_string(i));
+        addToLog(std::to_string(xdd(i)), "xdd" + std::to_string(i));
+    }
+

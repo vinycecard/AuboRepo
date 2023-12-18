@@ -1,0 +1,82 @@
+In file included from [01m[K/usr/include/boost/function/detail/maybe_include.hpp:18:0[m[K,
+                 from [01m[K/usr/include/boost/function/detail/function_iterate.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:52[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:64[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:1[m[K:
+/usr/include/boost/function/function_template.hpp: In instantiation of ‘[01m[Kstatic void boost::detail::function::function_void_mem_invoker1<MemberPtr, R, T0>::invoke(boost::detail::function::function_buffer&, T0) [with MemberPtr = void (JointControl::*)(const boost::shared_ptr<const sensor_msgs::JointState_<std::allocator<void> > >&); R = void; T0 = const boost::shared_ptr<const sensor_msgs::JointState_<std::allocator<void> > >&][m[K’:
+[01m[K/usr/include/boost/function/function_template.hpp:940:38:[m[K   required from ‘[01m[Kvoid boost::function1<R, T1>::assign_to(Functor) [with Functor = void (JointControl::*)(const boost::shared_ptr<const sensor_msgs::JointState_<std::allocator<void> > >&); R = void; T0 = const boost::shared_ptr<const sensor_msgs::JointState_<std::allocator<void> > >&][m[K’
+[01m[K/usr/include/boost/function/function_template.hpp:728:7:[m[K   required from ‘[01m[Kboost::function1<R, T1>::function1(Functor, typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type) [with Functor = void (JointControl::*)(const boost::shared_ptr<const sensor_msgs::JointState_<std::allocator<void> > >&); R = void; T0 = const boost::shared_ptr<const sensor_msgs::JointState_<std::allocator<void> > >&; typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type = int][m[K’
+[01m[K/usr/include/boost/function/function_template.hpp:1077:16:[m[K   required from ‘[01m[Kboost::function<R(T0)>::function(Functor, typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type) [with Functor = void (JointControl::*)(const boost::shared_ptr<const sensor_msgs::JointState_<std::allocator<void> > >&); R = void; T0 = const boost::shared_ptr<const sensor_msgs::JointState_<std::allocator<void> > >&; typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type = int][m[K’
+[01m[K/opt/ros/kinetic/include/message_filters/simple_filter.h:75:85:[m[K   required from ‘[01m[Kmessage_filters::Connection message_filters::SimpleFilter<M>::registerCallback(const C&) [with C = void (JointControl::*)(const boost::shared_ptr<const sensor_msgs::JointState_<std::allocator<void> > >&); M = sensor_msgs::JointState_<std::allocator<void> >][m[K’
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:155:68:[m[K   required from here
+[01m[K/usr/include/boost/function/function_template.hpp:231:11:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(boost::_mfi::mf1<void, JointControl, const boost::shared_ptr<const sensor_msgs::JointState_<std::allocator<void> > >&>) (const boost::shared_ptr<const sensor_msgs::JointState_<std::allocator<void> > >&)[m[K’
+           BOOST_FUNCTION_RETURN(boost::mem_fn(*f)(BOOST_FUNCTION_ARGS));
+[01;32m[K           ^[m[K
+In file included from [01m[K/usr/include/boost/bind/mem_fn.hpp:215:0[m[K,
+                 from [01m[K/usr/include/boost/mem_fn.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/function/detail/prologue.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:24[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:1[m[K:
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:163:7:[m[K [01;36m[Knote: [m[Kcandidate: R boost::_mfi::mf1<R, T, A1>::operator()(T*, A1) const [with R = void; T = JointControl; A1 = const boost::shared_ptr<const sensor_msgs::JointState_<std::allocator<void> > >&]
+     R operator()(T * p, A1 a1) const
+[01;32m[K       ^[m[K
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:163:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:168:25:[m[K [01;36m[Knote: [m[Kcandidate: template<class U> R boost::_mfi::mf1<R, T, A1>::operator()(U&, A1) const [with U = U; R = void; T = JointControl; A1 = const boost::shared_ptr<const sensor_msgs::JointState_<std::allocator<void> > >&]
+     template<class U> R operator()(U & u, A1 a1) const
+[01;32m[K                         ^[m[K
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:168:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function/detail/maybe_include.hpp:18:0[m[K,
+                 from [01m[K/usr/include/boost/function/detail/function_iterate.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:52[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:64[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:1[m[K:
+[01m[K/usr/include/boost/function/function_template.hpp:231:11:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+           BOOST_FUNCTION_RETURN(boost::mem_fn(*f)(BOOST_FUNCTION_ARGS));
+[01;32m[K           ^[m[K
+In file included from [01m[K/usr/include/boost/bind/mem_fn.hpp:215:0[m[K,
+                 from [01m[K/usr/include/boost/mem_fn.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/function/detail/prologue.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:24[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:1[m[K:
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:176:25:[m[K [01;36m[Knote: [m[Kcandidate: template<class U> R boost::_mfi::mf1<R, T, A1>::operator()(const U&, A1) const [with U = U; R = void; T = JointControl; A1 = const boost::shared_ptr<const sensor_msgs::JointState_<std::allocator<void> > >&]
+     template<class U> R operator()(U const & u, A1 a1) const
+[01;32m[K                         ^[m[K
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:176:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function/detail/maybe_include.hpp:18:0[m[K,
+                 from [01m[K/usr/include/boost/function/detail/function_iterate.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:52[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:64[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:1[m[K:
+[01m[K/usr/include/boost/function/function_template.hpp:231:11:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+           BOOST_FUNCTION_RETURN(boost::mem_fn(*f)(BOOST_FUNCTION_ARGS));
+[01;32m[K           ^[m[K
+In file included from [01m[K/usr/include/boost/bind/mem_fn.hpp:215:0[m[K,
+                 from [01m[K/usr/include/boost/mem_fn.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/function/detail/prologue.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:24[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:1[m[K:
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:184:7:[m[K [01;36m[Knote: [m[Kcandidate: R boost::_mfi::mf1<R, T, A1>::operator()(T&, A1) const [with R = void; T = JointControl; A1 = const boost::shared_ptr<const sensor_msgs::JointState_<std::allocator<void> > >&]
+     R operator()(T & t, A1 a1) const
+[01;32m[K       ^[m[K
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:184:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+make[2]: *** [CMakeFiles/joint_control.dir/src/joint_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/joint_control.dir/all] Error 2
+make: *** [all] Error 2

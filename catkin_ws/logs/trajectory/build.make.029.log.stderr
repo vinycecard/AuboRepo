@@ -1,0 +1,17 @@
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:[m[K In member function ‘[01m[Kvoid JointControl::pub_copied_msg()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:735:29:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function
+    waypoint.time_from_start = ros::Time::now().toSec;
+[01;32m[K                             ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:750:71:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function
+   waypoint.time_from_start = ros::Time::now().toSec + ros::Duration(dt);
+[01;32m[K                                                                       ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:[m[K In member function ‘[01m[Kvoid JointControl::pub_traj_msg()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:780:29:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function
+    waypoint.time_from_start = ros::Time::now().toSec;
+[01;32m[K                             ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:805:71:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function
+   waypoint.time_from_start = ros::Time::now().toSec + ros::Duration(dt);
+[01;32m[K                                                                       ^[m[K
+make[2]: *** [CMakeFiles/joint_control.dir/src/joint_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/joint_control.dir/all] Error 2
+make: *** [all] Error 2

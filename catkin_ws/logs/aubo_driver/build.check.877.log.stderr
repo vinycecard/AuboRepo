@@ -1,0 +1,4 @@
+CMake Error: Error in cmake code at
+/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/CMakeLists.txt:77:
+Parse error.  Expected a command name, got unquoted argument with text "]".
+make: *** [cmake_check_build_system] Error 1

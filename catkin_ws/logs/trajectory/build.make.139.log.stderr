@@ -1,0 +1,45 @@
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:13:11:[m[K [01;31m[Kerror: [m[K‘[01m[KZero[m[K’ in ‘[01m[KEigen::VectorXd {aka class Eigen::Matrix<double, -1, 1>}[m[K’ does not name a type
+ VectorXd::Zero u, ui, ud;
+[01;32m[K           ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:[m[K In function ‘[01m[Kvoid sinusoid()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:39:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kui[m[K’ was not declared in this scope
+  ui(n_joints-1) = amplitude*sin(wp*t);
+[01;32m[K               ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:40:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ku[m[K’ was not declared in this scope
+  u(n_joints-1) = amplitude*wp*cos(wp*t);
+[01;32m[K              ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:41:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kud[m[K’ was not declared in this scope
+  ud(n_joints-1) = -amplitude*wp*wp*sin(wp*t);
+[01;32m[K               ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:[m[K In function ‘[01m[Kvoid pub_traj_msg()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:93:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kui[m[K’ was not declared in this scope
+       waypoint.positions.at(j) = ui(j) + u(j)*left_time;
+[01;32m[K                                      ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:93:45:[m[K [01;31m[Kerror: [m[K‘[01m[Ku[m[K’ was not declared in this scope
+       waypoint.positions.at(j) = ui(j) + u(j)*left_time;
+[01;32m[K                                             ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:94:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kud[m[K’ was not declared in this scope
+    waypoint.velocities.at(j) = u(j) + ud(j)*left_time;
+[01;32m[K                                           ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:99:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kui[m[K’ was not declared in this scope
+    goal.points.at(0).positions.at(j) = ui(j) + u(j)*left_time;
+[01;32m[K                                            ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:99:51:[m[K [01;31m[Kerror: [m[K‘[01m[Ku[m[K’ was not declared in this scope
+    goal.points.at(0).positions.at(j) = ui(j) + u(j)*left_time;
+[01;32m[K                                                   ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:100:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kud[m[K’ was not declared in this scope
+    goal.points.at(0).velocities.at(j) = u(j) + ud(j)*left_time;
+[01;32m[K                                                    ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:138:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku[m[K’ was not declared in this scope
+   u.resize(n_joints);
+[01;32m[K   ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:139:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kui[m[K’ was not declared in this scope
+   ui.resize(n_joints);
+[01;32m[K   ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/openloop_control.cpp:140:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kud[m[K’ was not declared in this scope
+   ud.resize(n_joints);
+[01;32m[K   ^[m[K
+make[2]: *** [CMakeFiles/openloop_control.dir/src/openloop_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/openloop_control.dir/all] Error 2
+make: *** [all] Error 2

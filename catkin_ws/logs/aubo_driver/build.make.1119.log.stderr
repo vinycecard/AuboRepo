@@ -1,0 +1,73 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/sendJointPos.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/sendJointPos.cpp:60:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kset(const char [23], std::basic_ostream<char>::__ostream_type&)[m[K’
+     std::cout << "false" << std::endl);
+[01;32m[K                                      ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:54:0[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/sendJointPos.cpp:9[m[K:
+[01m[K/opt/ros/kinetic/include/ros/param.h:53:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const XmlRpc::XmlRpcValue&)
+ ROSCPP_DECL void set(const std::string& key, const XmlRpc::XmlRpcValue& v);
+[01;32m[K                  ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/param.h:53:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}[m[K’ to ‘[01m[Kconst XmlRpc::XmlRpcValue&[m[K’
+[01m[K/opt/ros/kinetic/include/ros/param.h:60:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const string&)
+ ROSCPP_DECL void set(const std::string& key, const std::string& s);
+[01;32m[K                  ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/param.h:60:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}[m[K’ to ‘[01m[Kconst string& {aka const std::__cxx11::basic_string<char>&}[m[K’
+[01m[K/opt/ros/kinetic/include/ros/param.h:67:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const char*)
+ ROSCPP_DECL void set(const std::string& key, const char* s);
+[01;32m[K                  ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/param.h:67:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}[m[K’ to ‘[01m[Kconst char*[m[K’
+[01m[K/opt/ros/kinetic/include/ros/param.h:74:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, double)
+ ROSCPP_DECL void set(const std::string& key, double d);
+[01;32m[K                  ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/param.h:74:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}[m[K’ to ‘[01m[Kdouble[m[K’
+[01m[K/opt/ros/kinetic/include/ros/param.h:81:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, int)
+ ROSCPP_DECL void set(const std::string& key, int i);
+[01;32m[K                  ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/param.h:81:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}[m[K’ to ‘[01m[Kint[m[K’
+[01m[K/opt/ros/kinetic/include/ros/param.h:88:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, bool)
+ ROSCPP_DECL void set(const std::string& key, bool b);
+[01;32m[K                  ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/param.h:88:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}[m[K’ to ‘[01m[Kbool[m[K’
+[01m[K/opt/ros/kinetic/include/ros/param.h:97:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::vector<std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL void set(const std::string& key, const std::vector<std::string>& vec);
+[01;32m[K                  ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/param.h:97:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}[m[K’ to ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >&[m[K’
+[01m[K/opt/ros/kinetic/include/ros/param.h:104:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::vector<double>&)
+ ROSCPP_DECL void set(const std::string& key, const std::vector<double>& vec);
+[01;32m[K                  ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/param.h:104:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}[m[K’ to ‘[01m[Kconst std::vector<double>&[m[K’
+[01m[K/opt/ros/kinetic/include/ros/param.h:111:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::vector<float>&)
+ ROSCPP_DECL void set(const std::string& key, const std::vector<float>& vec);
+[01;32m[K                  ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/param.h:111:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}[m[K’ to ‘[01m[Kconst std::vector<float>&[m[K’
+[01m[K/opt/ros/kinetic/include/ros/param.h:118:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::vector<int>&)
+ ROSCPP_DECL void set(const std::string& key, const std::vector<int>& vec);
+[01;32m[K                  ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/param.h:118:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}[m[K’ to ‘[01m[Kconst std::vector<int>&[m[K’
+[01m[K/opt/ros/kinetic/include/ros/param.h:125:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::vector<bool>&)
+ ROSCPP_DECL void set(const std::string& key, const std::vector<bool>& vec);
+[01;32m[K                  ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/param.h:125:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}[m[K’ to ‘[01m[Kconst std::vector<bool>&[m[K’
+[01m[K/opt/ros/kinetic/include/ros/param.h:133:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL void set(const std::string& key, const std::map<std::string, std::string>& map);
+[01;32m[K                  ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/param.h:133:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}[m[K’ to ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&[m[K’
+[01m[K/opt/ros/kinetic/include/ros/param.h:140:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::map<std::__cxx11::basic_string<char>, double>&)
+ ROSCPP_DECL void set(const std::string& key, const std::map<std::string, double>& map);
+[01;32m[K                  ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/param.h:140:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}[m[K’ to ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, double>&[m[K’
+[01m[K/opt/ros/kinetic/include/ros/param.h:147:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::map<std::__cxx11::basic_string<char>, float>&)
+ ROSCPP_DECL void set(const std::string& key, const std::map<std::string, float>& map);
+[01;32m[K                  ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/param.h:147:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}[m[K’ to ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, float>&[m[K’
+[01m[K/opt/ros/kinetic/include/ros/param.h:154:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::map<std::__cxx11::basic_string<char>, int>&)
+ ROSCPP_DECL void set(const std::string& key, const std::map<std::string, int>& map);
+[01;32m[K                  ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/param.h:154:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}[m[K’ to ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, int>&[m[K’
+[01m[K/opt/ros/kinetic/include/ros/param.h:161:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::map<std::__cxx11::basic_string<char>, bool>&)
+ ROSCPP_DECL void set(const std::string& key, const std::map<std::string, bool>& map);
+[01;32m[K                  ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/param.h:161:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}[m[K’ to ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, bool>&[m[K’
+make[2]: *** [CMakeFiles/sendJointPos.dir/src/sendJointPos.cpp.o] Error 1
+make[1]: *** [CMakeFiles/sendJointPos.dir/all] Error 2
+make: *** [all] Error 2

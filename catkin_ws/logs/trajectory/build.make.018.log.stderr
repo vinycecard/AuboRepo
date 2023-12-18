@@ -1,0 +1,22 @@
+In file included from [01m[K/opt/ros/kinetic/include/ros/serialization.h:37:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/publisher.h:34[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:1[m[K:
+/opt/ros/kinetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::MD5Sum<M>::value(const M&) [with M = std::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >][m[K’:
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:255:102:[m[K   required from ‘[01m[Kconst char* ros::message_traits::md5sum(const M&) [with M = std::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >][m[K’
+[01m[K/opt/ros/kinetic/include/ros/publisher.h:112:7:[m[K   required from ‘[01m[Kvoid ros::Publisher::publish(const M&) const [with M = std::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >][m[K’
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:721:41:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:126:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >[m[K’ has no member named ‘[01m[K__getMD5Sum[m[K’
+     return m.__getMD5Sum().c_str();
+[01;32m[K                                  ^[m[K
+/opt/ros/kinetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::DataType<M>::value(const M&) [with M = std::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >][m[K’:
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:264:104:[m[K   required from ‘[01m[Kconst char* ros::message_traits::datatype(const M&) [with M = std::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >][m[K’
+[01m[K/opt/ros/kinetic/include/ros/publisher.h:112:7:[m[K   required from ‘[01m[Kvoid ros::Publisher::publish(const M&) const [with M = std::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >][m[K’
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:721:41:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:143:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >[m[K’ has no member named ‘[01m[K__getDataType[m[K’
+     return m.__getDataType().c_str();
+[01;32m[K                                    ^[m[K
+make[2]: *** [CMakeFiles/joint_control.dir/src/joint_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/joint_control.dir/all] Error 2
+make: *** [all] Error 2

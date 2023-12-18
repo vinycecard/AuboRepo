@@ -1,0 +1,7 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/testNico.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/testNico.cpp:387:26:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_driver[m[K’ was not declared in this scope
+     testInitializeDriver(robot_driver);
+[01;32m[K                          ^[m[K
+make[2]: *** [CMakeFiles/testNico.dir/src/testNico.cpp.o] Error 1
+make[1]: *** [CMakeFiles/testNico.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,5 @@
+logger
+/home/nicolas/catkin_ws/devel/.private/logger/share/logger/cmake/loggerConfig.cmake /home/nicolas/catkin_ws/devel/share/logger/cmake/loggerConfig.cmake
+/home/nicolas/catkin_ws/devel/.private/logger/share/logger/cmake/loggerConfig-version.cmake /home/nicolas/catkin_ws/devel/share/logger/cmake/loggerConfig-version.cmake
+/home/nicolas/catkin_ws/devel/.private/logger/lib/liblogger.so /home/nicolas/catkin_ws/devel/lib/liblogger.so
+/home/nicolas/catkin_ws/devel/.private/logger/lib/pkgconfig/logger.pc /home/nicolas/catkin_ws/devel/lib/pkgconfig/logger.pc

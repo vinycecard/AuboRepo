@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nicolas/catkin_ws/devel/.private/aubo_i7_moveit_config/setup.sh

@@ -1,0 +1,7 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:[m[K In member function ‘[01m[KEigen::VectorXd JointControl::getJointAngle(aubo_driver::AuboDriver&)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:151:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+     }
+[01;32m[K     ^[m[K
+make[2]: *** [CMakeFiles/jointposcontrol.dir/src/jointposcontrol.cpp.o] Error 1
+make[1]: *** [CMakeFiles/jointposcontrol.dir/all] Error 2
+make: *** [all] Error 2

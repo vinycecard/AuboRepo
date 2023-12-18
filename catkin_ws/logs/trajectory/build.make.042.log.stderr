@@ -1,0 +1,6 @@
+CMakeFiles/joint_control.dir/src/joint_control.cpp.o: In function `message_filters::TimeSequencer<sensor_msgs::JointState_<std::allocator<void> > >::~TimeSequencer()':
+joint_control.cpp:(.text._ZN15message_filters13TimeSequencerIN11sensor_msgs11JointState_ISaIvEEEED2Ev[_ZN15message_filters13TimeSequencerIN11sensor_msgs11JointState_ISaIvEEEED5Ev]+0x28): undefined reference to `message_filters::Connection::disconnect()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/nicolas/catkin_ws/devel/.private/trajectory/lib/trajectory/joint_control] Error 1
+make[1]: *** [CMakeFiles/joint_control.dir/all] Error 2
+make: *** [all] Error 2

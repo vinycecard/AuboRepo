@@ -1,0 +1,8 @@
+prefix=/home/nicolas/catkin_ws/devel/.private/logger
+
+Name: logger
+Description: Description of logger
+Version: 0.0.0
+Cflags: -I/home/nicolas/catkin_ws/src/logger/include
+Libs: -L/home/nicolas/catkin_ws/devel/.private/logger/lib -llogger
+Requires: 

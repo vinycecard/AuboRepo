@@ -1,0 +1,7 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:[m[K In member function ‘[01m[Kvoid JointControl::execute_online()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_offline_traj.cpp:779:32:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpoffset[m[K’
+    reference(t,Eigen::Vector3d poffset(-0.4, -.1215, 0.5475));
+[01;32m[K                                ^[m[K
+make[2]: *** [CMakeFiles/force_offline_traj.dir/src/force_offline_traj.cpp.o] Error 1
+make[1]: *** [CMakeFiles/force_offline_traj.dir/all] Error 2
+make: *** [all] Error 2

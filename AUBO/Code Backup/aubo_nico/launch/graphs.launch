@@ -1,0 +1,17 @@
+<launch>
+
+<node name="rqt_plot_1" pkg="rqt_plot" type="rqt_plot" args="topics /joint_states/position[0] /joint_states/position[1] /joint_states/position[2] /joint_states/position[3] /joint_states/position[4] /joint_states/position[5] /goal_trajectory/position[0] /goal_trajectory/position[1] /goal_trajectory/position[2] /goal_trajectory/position[3] /goal_trajectory/position[4] /goal_trajectory/position[5]"/>
+
+<node name="rqt_plot_2" pkg="rqt_plot" type="rqt_plot" args="topics /joint_velocities/velocity[0] /goal_trajectory/velocity[0]"/>
+
+<node name="rqt_plot_3" pkg="rqt_plot" type="rqt_plot" args="topics /joint_velocities/velocity[1] /goal_trajectory/velocity[1]"/>
+
+<node name="rqt_plot_4" pkg="rqt_plot" type="rqt_plot" args="topics /joint_velocities/velocity[2] /goal_trajectory/velocity[2]"/>
+
+<node name="rqt_plot_5" pkg="rqt_plot" type="rqt_plot" args="topics /joint_velocities/velocity[3] /goal_trajectory/velocity[3]"/>
+
+<node name="rqt_plot_6" pkg="rqt_plot" type="rqt_plot" args="topics /joint_velocities/velocity[4] /goal_trajectory/velocity[4]"/>
+
+<node name="rqt_plot_7" pkg="rqt_plot" type="rqt_plot" args="topics /joint_velocities/velocity[5] /goal_trajectory/velocity[5]"/>
+
+</launch>

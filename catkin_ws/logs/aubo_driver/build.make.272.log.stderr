@@ -1,0 +1,16 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/testNico.cpp:[m[K In function ‘[01m[Kvoid testInitializeDriver(aubo_driver::AuboDriver&)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/testNico.cpp:41:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_send_service_[m[K’ was not declared in this scope
+     int ret = robot_send_service_.robotServiceEnterTcp2CanbusMode();
+[01;32m[K               ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/testNico.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_option_[m[K’ was not declared in this scope
+     control_option_ = aubo_driver::RosMoveIt;
+[01;32m[K     ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/testNico.cpp:63:9:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint ret[m[K’
+     int ret = robot_driver.robot_send_service_.robotServiceJointMove(zero_position, true);
+[01;32m[K         ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/testNico.cpp:41:9:[m[K [01;36m[Knote: [m[K‘[01m[Kint ret[m[K’ previously declared here
+     int ret = robot_send_service_.robotServiceEnterTcp2CanbusMode();
+[01;32m[K         ^[m[K
+make[2]: *** [CMakeFiles/testNico.dir/src/testNico.cpp.o] Error 1
+make[1]: *** [CMakeFiles/testNico.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nicolas/catkin_ws/build/aubo_i3_moveit_config/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28289/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28289.dir/build.make CMakeFiles/cmTC_28289.dir/build
+make[1]: Entering directory '/home/nicolas/catkin_ws/build/aubo_i3_moveit_config/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28289.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_28289.dir/CheckSymbolExists.c.o   -c /home/nicolas/catkin_ws/build/aubo_i3_moveit_config/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_28289
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28289.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_28289.dir/CheckSymbolExists.c.o  -o cmTC_28289 -rdynamic 
+CMakeFiles/cmTC_28289.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0xa): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_28289.dir/build.make:97: recipe for target 'cmTC_28289' failed
+make[1]: *** [cmTC_28289] Error 1
+make[1]: Leaving directory '/home/nicolas/catkin_ws/build/aubo_i3_moveit_config/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_28289/fast' failed
+make: *** [cmTC_28289/fast] Error 2
+
+File /home/nicolas/catkin_ws/build/aubo_i3_moveit_config/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nicolas/catkin_ws/build/aubo_i3_moveit_config/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_556ad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_556ad.dir/build.make CMakeFiles/cmTC_556ad.dir/build
+make[1]: Entering directory '/home/nicolas/catkin_ws/build/aubo_i3_moveit_config/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_556ad.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_556ad.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_556ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_556ad.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_556ad.dir/CheckFunctionExists.c.o  -o cmTC_556ad -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_556ad.dir/build.make:97: recipe for target 'cmTC_556ad' failed
+make[1]: *** [cmTC_556ad] Error 1
+make[1]: Leaving directory '/home/nicolas/catkin_ws/build/aubo_i3_moveit_config/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_556ad/fast' failed
+make: *** [cmTC_556ad/fast] Error 2
+
+

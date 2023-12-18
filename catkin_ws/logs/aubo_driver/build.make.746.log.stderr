@@ -1,0 +1,7 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/listen_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/listen_moveit.cpp:55:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_seq_number[m[K’ was not declared in this scope
+     last_seq_number = -1;
+[01;32m[K     ^[m[K
+make[2]: *** [CMakeFiles/listen_moveit.dir/src/listen_moveit.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listen_moveit.dir/all] Error 2
+make: *** [all] Error 2

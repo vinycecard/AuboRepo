@@ -1,0 +1,12 @@
+[  6%] Built target filter
+[ 13%] Built target openloop_control
+[ 20%] Built target joint_control
+[35m[1mScanning dependencies of target aubo_robot[0m
+[ 40%] Built target initial_conditions
+[ 53%] Built target xml_on_the_fly
+[ 66%] Built target grid_trajectory
+[ 70%] [32mBuilding CXX object CMakeFiles/aubo_robot.dir/src/aubo_robot.cpp.o[0m
+[ 76%] Built target velocity_estimator
+[ 96%] Built target trajectory_publisher
+[100%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/aubo_nico/lib/aubo_nico/aubo_robot[0m
+[100%] Built target aubo_robot

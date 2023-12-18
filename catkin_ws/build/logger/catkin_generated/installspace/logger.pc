@@ -1,0 +1,8 @@
+prefix=/home/nicolas/catkin_ws/install
+
+Name: logger
+Description: Description of logger
+Version: 0.0.0
+Cflags: -I/home/nicolas/catkin_ws/install/include
+Libs: -L/home/nicolas/catkin_ws/install/lib -llogger
+Requires: 

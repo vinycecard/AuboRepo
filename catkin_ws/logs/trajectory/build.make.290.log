@@ -1,0 +1,8 @@
+[  7%] Built target openloop_control
+[ 14%] Built target joint_control
+[ 21%] Built target filter
+[ 28%] Built target initial_conditions
+[ 50%] Built target trajectory_publisher
+[ 71%] Built target xml_on_the_fly
+[ 78%] Built target velocity_estimator
+[100%] Built target grid_trajectory

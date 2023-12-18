@@ -1,0 +1,16 @@
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:[m[K In member function ‘[01m[Kvoid JointControl::pub_traj_msg()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:780:33:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kros::TimeBase<T, D>::toSec<ros::Time, ros::Duration>[m[K’ from type ‘[01m[Kdouble (ros::TimeBase<ros::Time, ros::Duration>::)() const[m[K’ to type ‘[01m[Kint32_t {aka int}[m[K’
+    waypoint.time_from_start.sec = ros::Time::now().toSec;
+[01;32m[K                                 ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:781:34:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kros::TimeBase<T, D>::toNSec<ros::Time, ros::Duration>[m[K’ from type ‘[01m[Kuint64_t (ros::TimeBase<ros::Time, ros::Duration>::)() const {aka long long unsigned int (ros::TimeBase<ros::Time, ros::Duration>::)() const}[m[K’ to type ‘[01m[Kint32_t {aka int}[m[K’
+    waypoint.time_from_start.nsec = ros::Time::now().toNSec;
+[01;32m[K                                  ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:806:32:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kros::TimeBase<T, D>::toSec<ros::Time, ros::Duration>[m[K’ from type ‘[01m[Kdouble (ros::TimeBase<ros::Time, ros::Duration>::)() const[m[K’ to type ‘[01m[Kint32_t {aka int}[m[K’
+   waypoint.time_from_start.sec = (ros::Time::now() + ros::Duration(dt)).toSec;
+[01;32m[K                                ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/trajectory/src/joint_control.cpp:807:33:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kros::TimeBase<T, D>::toNSec<ros::Time, ros::Duration>[m[K’ from type ‘[01m[Kuint64_t (ros::TimeBase<ros::Time, ros::Duration>::)() const {aka long long unsigned int (ros::TimeBase<ros::Time, ros::Duration>::)() const}[m[K’ to type ‘[01m[Kint32_t {aka int}[m[K’
+   waypoint.time_from_start.nsec = (ros::Time::now() + ros::Duration(dt)).toNSec;
+[01;32m[K                                 ^[m[K
+make[2]: *** [CMakeFiles/joint_control.dir/src/joint_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/joint_control.dir/all] Error 2
+make: *** [all] Error 2

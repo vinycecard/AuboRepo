@@ -1,0 +1,8 @@
+prefix=/home/nicolas/catkin_ws/devel/.private/aubo_description
+
+Name: aubo_description
+Description: Description of aubo_description
+Version: 1.3.3
+Cflags: 
+Libs: -L/home/nicolas/catkin_ws/devel/.private/aubo_description/lib 
+Requires: 

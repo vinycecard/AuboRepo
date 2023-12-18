@@ -1,0 +1,12 @@
+Unlinking: /home/nicolas/catkin_ws/devel/share/aubo_nico/cmake/aubo_nicoConfig.cmake
+Unlinking: /home/nicolas/catkin_ws/devel/share/aubo_nico/cmake/aubo_nicoConfig-version.cmake
+Unlinking: /home/nicolas/catkin_ws/devel/lib/aubo_nico/filter
+Unlinking: /home/nicolas/catkin_ws/devel/lib/aubo_nico/joint_control
+Unlinking: /home/nicolas/catkin_ws/devel/lib/aubo_nico/velocity_estimator
+Unlinking: /home/nicolas/catkin_ws/devel/lib/aubo_nico/initial_conditions
+Unlinking: /home/nicolas/catkin_ws/devel/lib/aubo_nico/openloop_control
+Unlinking: /home/nicolas/catkin_ws/devel/lib/aubo_nico/grid_trajectory
+Unlinking: /home/nicolas/catkin_ws/devel/lib/aubo_nico/trajectory_publisher
+Unlinking: /home/nicolas/catkin_ws/devel/lib/aubo_nico/xml_on_the_fly
+Unlinking: /home/nicolas/catkin_ws/devel/lib/aubo_nico/aubo_robot
+Unlinking: /home/nicolas/catkin_ws/devel/lib/pkgconfig/aubo_nico.pc

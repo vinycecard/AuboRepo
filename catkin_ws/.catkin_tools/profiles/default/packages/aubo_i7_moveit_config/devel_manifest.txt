@@ -1,0 +1,4 @@
+aubo_robot/aubo_i7_moveit_config
+/home/nicolas/catkin_ws/devel/.private/aubo_i7_moveit_config/share/aubo_i7_moveit_config/cmake/aubo_i7_moveit_configConfig.cmake /home/nicolas/catkin_ws/devel/share/aubo_i7_moveit_config/cmake/aubo_i7_moveit_configConfig.cmake
+/home/nicolas/catkin_ws/devel/.private/aubo_i7_moveit_config/share/aubo_i7_moveit_config/cmake/aubo_i7_moveit_configConfig-version.cmake /home/nicolas/catkin_ws/devel/share/aubo_i7_moveit_config/cmake/aubo_i7_moveit_configConfig-version.cmake
+/home/nicolas/catkin_ws/devel/.private/aubo_i7_moveit_config/lib/pkgconfig/aubo_i7_moveit_config.pc /home/nicolas/catkin_ws/devel/lib/pkgconfig/aubo_i7_moveit_config.pc

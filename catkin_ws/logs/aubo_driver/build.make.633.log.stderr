@@ -1,0 +1,7 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:[m[K In constructor ‘[01m[KJointControl::JointControl(int, char**)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/control_Nico.cpp:109:96:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KJointControl[m[K’ does not have any field named ‘[01m[Ktiminglog[m[K’
+     JointControl(int argc_, char** argv_): first_pub(true), amplitude(0.5), wp(0.8), count(1), timinglog("/logs"), 
+[01;32m[K                                                                                                ^[m[K
+make[2]: *** [CMakeFiles/control_Nico.dir/src/control_Nico.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_Nico.dir/all] Error 2
+make: *** [all] Error 2

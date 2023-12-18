@@ -1,0 +1,6 @@
+/usr/bin/ld: cannot find -lauborobotcontroller
+/usr/bin/ld: cannot find -lotgLib
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/nicolas/catkin_ws/devel/.private/trajectory/lib/trajectory/openloop_control] Error 1
+make[1]: *** [CMakeFiles/openloop_control.dir/all] Error 2
+make: *** [all] Error 2

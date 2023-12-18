@@ -1,0 +1,8 @@
+prefix=/home/nicolas/catkin_ws/devel/.private/slider_publisher
+
+Name: slider_publisher
+Description: Description of slider_publisher
+Version: 1.1.0
+Cflags: 
+Libs: -L/home/nicolas/catkin_ws/devel/.private/slider_publisher/lib 
+Requires: 

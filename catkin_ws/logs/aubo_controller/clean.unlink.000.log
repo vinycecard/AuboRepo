@@ -1,0 +1,4 @@
+Unlinking: /home/nicolas/catkin_ws/devel/share/aubo_controller/cmake/aubo_controllerConfig-version.cmake
+Unlinking: /home/nicolas/catkin_ws/devel/share/aubo_controller/cmake/aubo_controllerConfig.cmake
+Unlinking: /home/nicolas/catkin_ws/devel/lib/aubo_controller/aubo_joint_trajectory_action
+Unlinking: /home/nicolas/catkin_ws/devel/lib/pkgconfig/aubo_controller.pc

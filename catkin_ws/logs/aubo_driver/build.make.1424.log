@@ -1,0 +1,64 @@
+[35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_py
+[  8%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/aubo_driver/lib/aubo_driver/aubo_gazebo_driver[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[  8%] Built target std_msgs_generate_messages_nodejs
+[  8%] Built target std_srvs_generate_messages_eus
+[  8%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[  8%] Built target std_srvs_generate_messages_nodejs
+[  8%] Built target std_msgs_generate_messages_eus
+[  8%] Built target geometry_msgs_generate_messages_py
+[  8%] Built target std_msgs_generate_messages_py
+[  8%] Built target roscpp_generate_messages_eus
+[  8%] Built target sensor_msgs_generate_messages_eus
+[  8%] Built target geometry_msgs_generate_messages_nodejs
+[  8%] Built target aubo_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[  8%] Built target aubo_msgs_generate_messages_lisp
+[  8%] Built target std_srvs_generate_messages_lisp
+[  8%] Built target geometry_msgs_generate_messages_lisp
+[  8%] Built target std_msgs_generate_messages_cpp
+[  8%] Built target sensor_msgs_generate_messages_py
+[  8%] Built target sensor_msgs_generate_messages_cpp
+[  8%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[  8%] Built target std_srvs_generate_messages_cpp
+[  8%] Built target sensor_msgs_generate_messages_lisp
+[  8%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[  8%] Built target rosgraph_msgs_generate_messages_eus
+[  8%] Built target topic_tools_generate_messages_cpp
+[  8%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[  8%] Built target roscpp_generate_messages_nodejs
+[ 16%] Built target aubo_gazebo_driver
+[ 16%] Built target rosgraph_msgs_generate_messages_cpp
+[ 16%] Built target topic_tools_generate_messages_nodejs
+[ 16%] Built target rosgraph_msgs_generate_messages_lisp
+[ 16%] Built target aubo_msgs_generate_messages_eus
+[ 16%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[ 16%] Built target rosgraph_msgs_generate_messages_py
+[ 16%] Built target std_srvs_generate_messages_py
+[ 16%] Built target aubo_msgs_generate_messages_cpp
+[ 16%] Built target aubo_msgs_generate_messages_py
+[35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[ 16%] Built target sensor_msgs_generate_messages_nodejs
+[ 16%] Built target topic_tools_generate_messages_lisp
+[ 16%] Built target topic_tools_generate_messages_eus
+[35m[1mScanning dependencies of target aubo_control[0m
+[ 25%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/aubo_driver/lib/aubo_driver/sendJointPos[0m
+[ 33%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/aubo_driver/lib/aubo_driver/testIO[0m
+[ 41%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/aubo_driver/lib/aubo_driver/testAuboAPI[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/aubo_control.dir/src/aubo_control.cpp.o[0m
+[ 58%] Built target testIO
+[ 66%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/aubo_driver/lib/aubo_driver/aubo_driver[0m
+[ 75%] Built target testAuboAPI
+[ 83%] Built target sendJointPos
+[ 91%] Built target aubo_driver
+[100%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/aubo_driver/lib/aubo_driver/aubo_control[0m
+[100%] Built target aubo_control

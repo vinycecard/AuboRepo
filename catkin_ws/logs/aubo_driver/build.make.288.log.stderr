@@ -1,0 +1,26 @@
+In file included from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/driver_node.cpp:32:0[m[K:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/aubo_driver.h:143:18:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[Kaubo_driver::AuboDriver::[m[K’ on member ‘[01m[KTestMoveLoop[m[K’ [-fpermissive]
+             void AuboDriver::TestMoveLoop(aubo_driver::AuboDriver &robot_driver);
+[01;32m[K                  ^[m[K
+In file included from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/testAuboAPI.cpp:32:0[m[K:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/aubo_driver.h:143:18:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[Kaubo_driver::AuboDriver::[m[K’ on member ‘[01m[KTestMoveLoop[m[K’ [-fpermissive]
+             void AuboDriver::TestMoveLoop(aubo_driver::AuboDriver &robot_driver);
+[01;32m[K                  ^[m[K
+In file included from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/testIO.cpp:32:0[m[K:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/aubo_driver.h:143:18:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[Kaubo_driver::AuboDriver::[m[K’ on member ‘[01m[KTestMoveLoop[m[K’ [-fpermissive]
+             void AuboDriver::TestMoveLoop(aubo_driver::AuboDriver &robot_driver);
+[01;32m[K                  ^[m[K
+In file included from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/testNico.cpp:7:0[m[K:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/aubo_driver/aubo_driver.h:143:18:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[Kaubo_driver::AuboDriver::[m[K’ on member ‘[01m[KTestMoveLoop[m[K’ [-fpermissive]
+             void AuboDriver::TestMoveLoop(aubo_driver::AuboDriver &robot_driver);
+[01;32m[K                  ^[m[K
+make[2]: *** [CMakeFiles/testIO.dir/src/testIO.cpp.o] Error 1
+make[1]: *** [CMakeFiles/testIO.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/aubo_driver.dir/src/driver_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/aubo_driver.dir/all] Error 2
+make[2]: *** [CMakeFiles/testAuboAPI.dir/src/testAuboAPI.cpp.o] Error 1
+make[1]: *** [CMakeFiles/testAuboAPI.dir/all] Error 2
+make[2]: *** [CMakeFiles/testNico.dir/src/testNico.cpp.o] Error 1
+make[1]: *** [CMakeFiles/testNico.dir/all] Error 2
+make: *** [all] Error 2

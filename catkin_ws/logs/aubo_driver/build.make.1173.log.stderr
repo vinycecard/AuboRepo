@@ -1,0 +1,118 @@
+CMakeFiles/cartesian_control_topic.dir/src/cartesian_control_topic.cpp.o: In function `aubo_driver::AuboDriver::AuboDriver()':
+cartesian_control_topic.cpp:(.text+0xd9): undefined reference to `ServiceInterface::ServiceInterface()'
+cartesian_control_topic.cpp:(.text+0xf0): undefined reference to `ServiceInterface::ServiceInterface()'
+cartesian_control_topic.cpp:(.text+0x155b): undefined reference to `ServiceInterface::~ServiceInterface()'
+cartesian_control_topic.cpp:(.text+0x1574): undefined reference to `ServiceInterface::~ServiceInterface()'
+CMakeFiles/cartesian_control_topic.dir/src/cartesian_control_topic.cpp.o: In function `aubo_driver::AuboDriver::~AuboDriver()':
+cartesian_control_topic.cpp:(.text+0x15b3): undefined reference to `ServiceInterface::robotServiceLeaveTcp2CanbusMode()'
+cartesian_control_topic.cpp:(.text+0x15c5): undefined reference to `ServiceInterface::robotServiceLogout()'
+cartesian_control_topic.cpp:(.text+0x15d9): undefined reference to `ServiceInterface::robotServiceLogout()'
+cartesian_control_topic.cpp:(.text+0x17a5): undefined reference to `ServiceInterface::~ServiceInterface()'
+cartesian_control_topic.cpp:(.text+0x17b7): undefined reference to `ServiceInterface::~ServiceInterface()'
+CMakeFiles/cartesian_control_topic.dir/src/cartesian_control_topic.cpp.o: In function `aubo_driver::AuboDriver::timerCallback(ros::TimerEvent const&)':
+cartesian_control_topic.cpp:(.text+0x181b): undefined reference to `ServiceInterface::robotServiceGetCurrentWaypointInfo(aubo_robot_namespace::wayPoint_S&)'
+cartesian_control_topic.cpp:(.text+0x18d6): undefined reference to `ServiceInterface::robotServiceGetRobotDiagnosisInfo(aubo_robot_namespace::RobotDiagnosis&)'
+CMakeFiles/cartesian_control_topic.dir/src/cartesian_control_topic.cpp.o: In function `aubo_driver::AuboDriver::setRobotJointsByMoveIt()':
+cartesian_control_topic.cpp:(.text+0x2617): undefined reference to `otgVelocityModeParameterUpdate(JointTrajectoryInput)'
+cartesian_control_topic.cpp:(.text+0x265f): undefined reference to `otgVelocityModeResult(int, JointTrajectoryOutput&)'
+cartesian_control_topic.cpp:(.text+0x2741): undefined reference to `ServiceInterface::robotServiceSetRobotPosData2Canbus(double*)'
+cartesian_control_topic.cpp:(.text+0x2919): undefined reference to `ServiceInterface::robotServiceSetRobotPosData2Canbus(double*)'
+CMakeFiles/cartesian_control_topic.dir/src/cartesian_control_topic.cpp.o: In function `aubo_driver::AuboDriver::controllerSwitchCallback(boost::shared_ptr<std_msgs::Int32_<std::allocator<void> > const> const&)':
+cartesian_control_topic.cpp:(.text+0x2c97): undefined reference to `ServiceInterface::robotServiceLeaveTcp2CanbusMode()'
+cartesian_control_topic.cpp:(.text+0x2ec7): undefined reference to `ServiceInterface::robotServiceEnterTcp2CanbusMode()'
+CMakeFiles/cartesian_control_topic.dir/src/cartesian_control_topic.cpp.o: In function `aubo_driver::AuboDriver::robotControlCallback(boost::shared_ptr<std_msgs::String_<std::allocator<void> > const> const&)':
+cartesian_control_topic.cpp:(.text+0x3943): undefined reference to `ServiceInterface::rootServiceRobotStartup(aubo_robot_namespace::ToolDynamicsParam const&, unsigned char, bool, bool, int, aubo_robot_namespace::ROBOT_SERVICE_STATE&, bool)'
+CMakeFiles/cartesian_control_topic.dir/src/cartesian_control_topic.cpp.o: In function `aubo_driver::AuboDriver::AuboAPICallback(boost::shared_ptr<std_msgs::Float32MultiArray_<std::allocator<void> > const> const&)':
+cartesian_control_topic.cpp:(.text+0x3eb8): undefined reference to `ServiceInterface::robotServiceJointMove(double*, bool)'
+CMakeFiles/cartesian_control_topic.dir/src/cartesian_control_topic.cpp.o: In function `aubo_driver::AuboDriver::connectToRobotController()':
+cartesian_control_topic.cpp:(.text+0x431d): undefined reference to `ServiceInterface::robotServiceLogin(char const*, int, char const*, char const*)'
+cartesian_control_topic.cpp:(.text+0x4389): undefined reference to `ServiceInterface::robotServiceLogin(char const*, int, char const*, char const*)'
+cartesian_control_topic.cpp:(.text+0x43e6): undefined reference to `ServiceInterface::robotServiceGetIsRealRobotExist(bool&)'
+CMakeFiles/cartesian_control_topic.dir/src/cartesian_control_topic.cpp.o: In function `aubo_driver::AuboDriver::run()':
+cartesian_control_topic.cpp:(.text+0x4796): undefined reference to `ServiceInterface::robotServiceEnterTcp2CanbusMode()'
+cartesian_control_topic.cpp:(.text+0x49cc): undefined reference to `ServiceInterface::robotServiceGetCurrentWaypointInfo(aubo_robot_namespace::wayPoint_S&)'
+CMakeFiles/cartesian_control_topic.dir/src/cartesian_control_topic.cpp.o: In function `aubo_driver::AuboDriver::publishIOMsg()':
+cartesian_control_topic.cpp:(.text+0x4ed8): undefined reference to `ServiceInterface::robotServiceGetBoardIOStatus(std::vector<aubo_robot_namespace::RobotIoType, std::allocator<aubo_robot_namespace::RobotIoType> >, std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+cartesian_control_topic.cpp:(.text+0x4f2f): undefined reference to `ServiceInterface::robotServiceGetBoardIOStatus(std::vector<aubo_robot_namespace::RobotIoType, std::allocator<aubo_robot_namespace::RobotIoType> >, std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+cartesian_control_topic.cpp:(.text+0x5257): undefined reference to `ServiceInterface::robotServiceGetBoardIOStatus(std::vector<aubo_robot_namespace::RobotIoType, std::allocator<aubo_robot_namespace::RobotIoType> >, std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+cartesian_control_topic.cpp:(.text+0x52ae): undefined reference to `ServiceInterface::robotServiceGetBoardIOStatus(std::vector<aubo_robot_namespace::RobotIoType, std::allocator<aubo_robot_namespace::RobotIoType> >, std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+cartesian_control_topic.cpp:(.text+0x5543): undefined reference to `ServiceInterface::robotServiceGetBoardIOStatus(std::vector<aubo_robot_namespace::RobotIoType, std::allocator<aubo_robot_namespace::RobotIoType> >, std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+CMakeFiles/cartesian_control_topic.dir/src/cartesian_control_topic.cpp.o:cartesian_control_topic.cpp:(.text+0x559a): more undefined references to `ServiceInterface::robotServiceGetBoardIOStatus(std::vector<aubo_robot_namespace::RobotIoType, std::allocator<aubo_robot_namespace::RobotIoType> >, std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)' follow
+CMakeFiles/cartesian_control_topic.dir/src/cartesian_control_topic.cpp.o: In function `aubo_driver::AuboDriver::publishIOMsg()':
+cartesian_control_topic.cpp:(.text+0x575f): undefined reference to `ServiceInterface::robotServiceGetAllToolDigitalIOStatus(std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+cartesian_control_topic.cpp:(.text+0x5784): undefined reference to `ServiceInterface::robotServiceGetAllToolAIStatus(std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+CMakeFiles/cartesian_control_topic.dir/src/cartesian_control_topic.cpp.o: In function `aubo_driver::AuboDriver::setIO(aubo_msgs::SetIORequest_<std::allocator<void> >&, aubo_msgs::SetIOResponse_<std::allocator<void> >&)':
+cartesian_control_topic.cpp:(.text+0x5c7c): undefined reference to `ServiceInterface::robotServiceSetBoardIOStatus(aubo_robot_namespace::RobotIoType, int, double)'
+cartesian_control_topic.cpp:(.text+0x5cf4): undefined reference to `ServiceInterface::robotServiceSetBoardIOStatus(aubo_robot_namespace::RobotIoType, int, double)'
+cartesian_control_topic.cpp:(.text+0x5d7b): undefined reference to `ServiceInterface::robotServiceSetToolDigitalIOType(aubo_robot_namespace::ToolDigitalIOAddr, aubo_robot_namespace::ToolIOType)'
+cartesian_control_topic.cpp:(.text+0x5dde): undefined reference to `ServiceInterface::robotServiceSetToolDigitalIOType(aubo_robot_namespace::ToolDigitalIOAddr, aubo_robot_namespace::ToolIOType)'
+cartesian_control_topic.cpp:(.text+0x5e5d): undefined reference to `ServiceInterface::robotServiceSetToolDOStatus(aubo_robot_namespace::ToolDigitalIOAddr, aubo_robot_namespace::IO_STATUS)'
+cartesian_control_topic.cpp:(.text+0x5ed5): undefined reference to `ServiceInterface::robotServiceSetBoardIOStatus(aubo_robot_namespace::RobotIoType, int, double)'
+cartesian_control_topic.cpp:(.text+0x5f55): undefined reference to `ServiceInterface::robotServiceSetToolPowerVoltageType(aubo_robot_namespace::ToolPowerType)'
+CMakeFiles/cartesian_control_topic.dir/src/cartesian_control_topic.cpp.o:(.rodata+0xd0): undefined reference to `Velocity_Solution_PosTrap(MotionState&)'
+CMakeFiles/cartesian_control_topic.dir/src/cartesian_control_topic.cpp.o:(.rodata+0xd4): undefined reference to `Velocity_Solution_PosTri(MotionState&)'
+CMakeFiles/cartesian_control_topic.dir/src/cartesian_control_topic.cpp.o:(.rodata+0xd8): undefined reference to `Velocity_Solution_PosLinHldNegLin(MotionState&)'
+CMakeFiles/cartesian_control_topic.dir/src/cartesian_control_topic.cpp.o:(.rodata+0xdc): undefined reference to `Velocity_Solution_NegLinHldNegLin(MotionState&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/nicolas/catkin_ws/devel/.private/aubo_driver/lib/aubo_driver/cartesian_control_topic] Error 1
+make[1]: *** [CMakeFiles/cartesian_control_topic.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+CMakeFiles/force_control_topic.dir/src/force_control_topic.cpp.o: In function `aubo_driver::AuboDriver::AuboDriver()':
+force_control_topic.cpp:(.text+0xd9): undefined reference to `ServiceInterface::ServiceInterface()'
+force_control_topic.cpp:(.text+0xf0): undefined reference to `ServiceInterface::ServiceInterface()'
+force_control_topic.cpp:(.text+0x155b): undefined reference to `ServiceInterface::~ServiceInterface()'
+force_control_topic.cpp:(.text+0x1574): undefined reference to `ServiceInterface::~ServiceInterface()'
+CMakeFiles/force_control_topic.dir/src/force_control_topic.cpp.o: In function `aubo_driver::AuboDriver::~AuboDriver()':
+force_control_topic.cpp:(.text+0x15b3): undefined reference to `ServiceInterface::robotServiceLeaveTcp2CanbusMode()'
+force_control_topic.cpp:(.text+0x15c5): undefined reference to `ServiceInterface::robotServiceLogout()'
+force_control_topic.cpp:(.text+0x15d9): undefined reference to `ServiceInterface::robotServiceLogout()'
+force_control_topic.cpp:(.text+0x17a5): undefined reference to `ServiceInterface::~ServiceInterface()'
+force_control_topic.cpp:(.text+0x17b7): undefined reference to `ServiceInterface::~ServiceInterface()'
+CMakeFiles/force_control_topic.dir/src/force_control_topic.cpp.o: In function `aubo_driver::AuboDriver::timerCallback(ros::TimerEvent const&)':
+force_control_topic.cpp:(.text+0x181b): undefined reference to `ServiceInterface::robotServiceGetCurrentWaypointInfo(aubo_robot_namespace::wayPoint_S&)'
+force_control_topic.cpp:(.text+0x18d6): undefined reference to `ServiceInterface::robotServiceGetRobotDiagnosisInfo(aubo_robot_namespace::RobotDiagnosis&)'
+CMakeFiles/force_control_topic.dir/src/force_control_topic.cpp.o: In function `aubo_driver::AuboDriver::setRobotJointsByMoveIt()':
+force_control_topic.cpp:(.text+0x2617): undefined reference to `otgVelocityModeParameterUpdate(JointTrajectoryInput)'
+force_control_topic.cpp:(.text+0x265f): undefined reference to `otgVelocityModeResult(int, JointTrajectoryOutput&)'
+force_control_topic.cpp:(.text+0x2741): undefined reference to `ServiceInterface::robotServiceSetRobotPosData2Canbus(double*)'
+force_control_topic.cpp:(.text+0x2919): undefined reference to `ServiceInterface::robotServiceSetRobotPosData2Canbus(double*)'
+CMakeFiles/force_control_topic.dir/src/force_control_topic.cpp.o: In function `aubo_driver::AuboDriver::controllerSwitchCallback(boost::shared_ptr<std_msgs::Int32_<std::allocator<void> > const> const&)':
+force_control_topic.cpp:(.text+0x2c97): undefined reference to `ServiceInterface::robotServiceLeaveTcp2CanbusMode()'
+force_control_topic.cpp:(.text+0x2ec7): undefined reference to `ServiceInterface::robotServiceEnterTcp2CanbusMode()'
+CMakeFiles/force_control_topic.dir/src/force_control_topic.cpp.o: In function `aubo_driver::AuboDriver::robotControlCallback(boost::shared_ptr<std_msgs::String_<std::allocator<void> > const> const&)':
+force_control_topic.cpp:(.text+0x3943): undefined reference to `ServiceInterface::rootServiceRobotStartup(aubo_robot_namespace::ToolDynamicsParam const&, unsigned char, bool, bool, int, aubo_robot_namespace::ROBOT_SERVICE_STATE&, bool)'
+CMakeFiles/force_control_topic.dir/src/force_control_topic.cpp.o: In function `aubo_driver::AuboDriver::AuboAPICallback(boost::shared_ptr<std_msgs::Float32MultiArray_<std::allocator<void> > const> const&)':
+force_control_topic.cpp:(.text+0x3eb8): undefined reference to `ServiceInterface::robotServiceJointMove(double*, bool)'
+CMakeFiles/force_control_topic.dir/src/force_control_topic.cpp.o: In function `aubo_driver::AuboDriver::connectToRobotController()':
+force_control_topic.cpp:(.text+0x431d): undefined reference to `ServiceInterface::robotServiceLogin(char const*, int, char const*, char const*)'
+force_control_topic.cpp:(.text+0x4389): undefined reference to `ServiceInterface::robotServiceLogin(char const*, int, char const*, char const*)'
+force_control_topic.cpp:(.text+0x43e6): undefined reference to `ServiceInterface::robotServiceGetIsRealRobotExist(bool&)'
+CMakeFiles/force_control_topic.dir/src/force_control_topic.cpp.o: In function `aubo_driver::AuboDriver::run()':
+force_control_topic.cpp:(.text+0x4796): undefined reference to `ServiceInterface::robotServiceEnterTcp2CanbusMode()'
+force_control_topic.cpp:(.text+0x49cc): undefined reference to `ServiceInterface::robotServiceGetCurrentWaypointInfo(aubo_robot_namespace::wayPoint_S&)'
+CMakeFiles/force_control_topic.dir/src/force_control_topic.cpp.o: In function `aubo_driver::AuboDriver::publishIOMsg()':
+force_control_topic.cpp:(.text+0x4ed8): undefined reference to `ServiceInterface::robotServiceGetBoardIOStatus(std::vector<aubo_robot_namespace::RobotIoType, std::allocator<aubo_robot_namespace::RobotIoType> >, std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+force_control_topic.cpp:(.text+0x4f2f): undefined reference to `ServiceInterface::robotServiceGetBoardIOStatus(std::vector<aubo_robot_namespace::RobotIoType, std::allocator<aubo_robot_namespace::RobotIoType> >, std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+force_control_topic.cpp:(.text+0x5257): undefined reference to `ServiceInterface::robotServiceGetBoardIOStatus(std::vector<aubo_robot_namespace::RobotIoType, std::allocator<aubo_robot_namespace::RobotIoType> >, std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+force_control_topic.cpp:(.text+0x52ae): undefined reference to `ServiceInterface::robotServiceGetBoardIOStatus(std::vector<aubo_robot_namespace::RobotIoType, std::allocator<aubo_robot_namespace::RobotIoType> >, std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+force_control_topic.cpp:(.text+0x5543): undefined reference to `ServiceInterface::robotServiceGetBoardIOStatus(std::vector<aubo_robot_namespace::RobotIoType, std::allocator<aubo_robot_namespace::RobotIoType> >, std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+CMakeFiles/force_control_topic.dir/src/force_control_topic.cpp.o:force_control_topic.cpp:(.text+0x559a): more undefined references to `ServiceInterface::robotServiceGetBoardIOStatus(std::vector<aubo_robot_namespace::RobotIoType, std::allocator<aubo_robot_namespace::RobotIoType> >, std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)' follow
+CMakeFiles/force_control_topic.dir/src/force_control_topic.cpp.o: In function `aubo_driver::AuboDriver::publishIOMsg()':
+force_control_topic.cpp:(.text+0x575f): undefined reference to `ServiceInterface::robotServiceGetAllToolDigitalIOStatus(std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+force_control_topic.cpp:(.text+0x5784): undefined reference to `ServiceInterface::robotServiceGetAllToolAIStatus(std::vector<aubo_robot_namespace::RobotIoDesc, std::allocator<aubo_robot_namespace::RobotIoDesc> >&)'
+CMakeFiles/force_control_topic.dir/src/force_control_topic.cpp.o: In function `aubo_driver::AuboDriver::setIO(aubo_msgs::SetIORequest_<std::allocator<void> >&, aubo_msgs::SetIOResponse_<std::allocator<void> >&)':
+force_control_topic.cpp:(.text+0x5c7c): undefined reference to `ServiceInterface::robotServiceSetBoardIOStatus(aubo_robot_namespace::RobotIoType, int, double)'
+force_control_topic.cpp:(.text+0x5cf4): undefined reference to `ServiceInterface::robotServiceSetBoardIOStatus(aubo_robot_namespace::RobotIoType, int, double)'
+force_control_topic.cpp:(.text+0x5d7b): undefined reference to `ServiceInterface::robotServiceSetToolDigitalIOType(aubo_robot_namespace::ToolDigitalIOAddr, aubo_robot_namespace::ToolIOType)'
+force_control_topic.cpp:(.text+0x5dde): undefined reference to `ServiceInterface::robotServiceSetToolDigitalIOType(aubo_robot_namespace::ToolDigitalIOAddr, aubo_robot_namespace::ToolIOType)'
+force_control_topic.cpp:(.text+0x5e5d): undefined reference to `ServiceInterface::robotServiceSetToolDOStatus(aubo_robot_namespace::ToolDigitalIOAddr, aubo_robot_namespace::IO_STATUS)'
+force_control_topic.cpp:(.text+0x5ed5): undefined reference to `ServiceInterface::robotServiceSetBoardIOStatus(aubo_robot_namespace::RobotIoType, int, double)'
+force_control_topic.cpp:(.text+0x5f55): undefined reference to `ServiceInterface::robotServiceSetToolPowerVoltageType(aubo_robot_namespace::ToolPowerType)'
+CMakeFiles/force_control_topic.dir/src/force_control_topic.cpp.o:(.rodata+0xd0): undefined reference to `Velocity_Solution_PosTrap(MotionState&)'
+CMakeFiles/force_control_topic.dir/src/force_control_topic.cpp.o:(.rodata+0xd4): undefined reference to `Velocity_Solution_PosTri(MotionState&)'
+CMakeFiles/force_control_topic.dir/src/force_control_topic.cpp.o:(.rodata+0xd8): undefined reference to `Velocity_Solution_PosLinHldNegLin(MotionState&)'
+CMakeFiles/force_control_topic.dir/src/force_control_topic.cpp.o:(.rodata+0xdc): undefined reference to `Velocity_Solution_NegLinHldNegLin(MotionState&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/nicolas/catkin_ws/devel/.private/aubo_driver/lib/aubo_driver/force_control_topic] Error 1
+make[1]: *** [CMakeFiles/force_control_topic.dir/all] Error 2
+make: *** [all] Error 2

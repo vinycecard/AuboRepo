@@ -1,0 +1,25 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_control_TDPA_topic.cpp:[m[K In member function ‘[01m[Kvoid JointControl::force_ref_staircase(double&)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_control_TDPA_topic.cpp:467:50:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand types are ‘[01m[KEigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> >, const Eigen::Matrix<double, 3, 1> > >::type {aka const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> >, const Eigen::Matrix<double, 3, 1> >}[m[K’ and ‘[01m[Kdouble[m[K’)
+    force_ref = -(k + 1)*force_interval_staircase + 2.0*10.0;
+[01;32m[K                                                  ^[m[K
+In file included from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/Core:72:0[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/Dense:1[m[K,
+                 from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_control_TDPA_topic.cpp:6[m[K:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h:27:28:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> const Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<typename Eigen::internal::traits<T>::Scalar, typename Eigen::internal::traits<OtherDerived>::Scalar>, const Derived, const OtherDerived> Eigen::MatrixBase<Derived>::operator+(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = OtherDerived; Derived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> >, const Eigen::Matrix<double, 3, 1> >]
+ EIGEN_MAKE_CWISE_BINARY_OP(operator+,sum)
+[01;32m[K                            ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/src/Core/util/Macros.h:915:4:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_MAKE_CWISE_BINARY_OP[m[K’
+   (METHOD)(const EIGEN_CURRENT_STORAGE_BASE_CLASS<OtherDerived> &other) const \
+[01;32m[K    ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h:27:28:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+ EIGEN_MAKE_CWISE_BINARY_OP(operator+,sum)
+[01;32m[K                            ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/include/Eigen/src/Core/util/Macros.h:915:4:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_MAKE_CWISE_BINARY_OP[m[K’
+   (METHOD)(const EIGEN_CURRENT_STORAGE_BASE_CLASS<OtherDerived> &other) const \
+[01;32m[K    ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/force_control_TDPA_topic.cpp:467:56:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::MatrixBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+    force_ref = -(k + 1)*force_interval_staircase + 2.0*10.0;
+[01;32m[K                                                        ^[m[K
+make[2]: *** [CMakeFiles/force_control_TDPA_topic.dir/src/force_control_TDPA_topic.cpp.o] Error 1
+make[1]: *** [CMakeFiles/force_control_TDPA_topic.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,9 @@
+[31m[1mCMake Error[0m at /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:302 (message):
+  catkin_package() include dir 'include/otg' does not exist relative to
+  '/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver'
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:11 (catkin_package)
+
+
+make: *** [cmake_check_build_system] Error 1

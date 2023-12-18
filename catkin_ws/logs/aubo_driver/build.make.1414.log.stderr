@@ -1,0 +1,39 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_control.cpp:128:26:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KAuboControl::nJoints[m[K’
+     double zero_position[nJoints] = {0};
+[01;32m[K                          ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_control.cpp:38:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  const int nJoints = 6;
+[01;32m[K                      ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_control.cpp:130:29:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KAuboControl::nJoints[m[K’
+     double initial_position[nJoints] = {0.0/180.0*pi,  -7.2917/180.0*pi,  -75.6946/180.0*pi, 21.5967/180.0*pi, -90.0/180.0*pi, 0.0/180.0*pi};
+[01;32m[K                             ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_control.cpp:38:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  const int nJoints = 6;
+[01;32m[K                      ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_control.cpp:132:27:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KAuboControl::nJoints[m[K’
+  double initial_position2[nJoints] = {0.0/180.0*pi,  -7.2917/180.0*pi,  -75.6946/180.0*pi, 21.5967/180.0*pi, 90.0/180.0*pi, 0.0/180.0*pi};
+[01;32m[K                           ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_control.cpp:38:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  const int nJoints = 6;
+[01;32m[K                      ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_control.cpp:134:30:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KAuboControl::nJoints[m[K’
+     double initial_position3[nJoints] = {90.0/180.0*pi,  -7.2917/180.0*pi,  -75.6946/180.0*pi, 21.5967/180.0*pi, -90.0/180.0*pi, 0.0/180.0*pi};
+[01;32m[K                              ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_control.cpp:38:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  const int nJoints = 6;
+[01;32m[K                      ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_control.cpp:136:39:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KAuboControl::nJoints[m[K’
+     double initial_position_bluechair[nJoints] = {0.0/180.0*pi,  14.8137/180.0*pi,  -134.2134/180.0*pi, -59.0270/180.0*pi, -90.0/180.0*pi, 0.0/180.0*pi};
+[01;32m[K                                       ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_control.cpp:38:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  const int nJoints = 6;
+[01;32m[K                      ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_control.cpp:138:36:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KAuboControl::nJoints[m[K’
+     double initial_position_stairs[nJoints] = {0.0/180.0*pi,  0.7939/180.0*pi,  -128.2163/180.0*pi, -39.0101/180.0*pi, -90.0/180.0*pi, 0.0/180.0*pi};
+[01;32m[K                                    ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_control.cpp:38:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  const int nJoints = 6;
+[01;32m[K                      ^[m[K
+make[2]: *** [CMakeFiles/aubo_control.dir/src/aubo_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/aubo_control.dir/all] Error 2
+make: *** [all] Error 2

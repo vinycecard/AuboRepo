@@ -1,0 +1,4 @@
+Unlinking: /home/nicolas/catkin_ws/devel/share/aubo_demo/cmake/aubo_demoConfig.cmake
+Unlinking: /home/nicolas/catkin_ws/devel/share/aubo_demo/cmake/aubo_demoConfig-version.cmake
+Unlinking: /home/nicolas/catkin_ws/devel/lib/pkgconfig/aubo_demo.pc
+Unlinking: /home/nicolas/catkin_ws/devel/lib/aubo_demo/move_group_interface_tutorial

@@ -1,0 +1,2 @@
+set(netft_utils_MESSAGE_FILES "/home/nicolas/catkin_ws/src/netft_utils/msg/Cancel.msg")
+set(netft_utils_SERVICE_FILES "/home/nicolas/catkin_ws/src/netft_utils/srv/SetBias.srv;/home/nicolas/catkin_ws/src/netft_utils/srv/SetFilter.srv;/home/nicolas/catkin_ws/src/netft_utils/srv/SetMax.srv;/home/nicolas/catkin_ws/src/netft_utils/srv/SetThreshold.srv;/home/nicolas/catkin_ws/src/netft_utils/srv/SetToolData.srv;/home/nicolas/catkin_ws/src/netft_utils/srv/GetDouble.srv;/home/nicolas/catkin_ws/src/netft_utils/srv/StartSim.srv;/home/nicolas/catkin_ws/src/netft_utils/srv/StopSim.srv")

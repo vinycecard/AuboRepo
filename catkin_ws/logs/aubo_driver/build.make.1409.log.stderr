@@ -1,0 +1,23 @@
+In file included from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/sendJointPos.cpp:13:0[m[K:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_driver.cpp:[m[K In member function ‘[01m[Kvoid aubo_driver::AuboDriver::updateControlStatus()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_driver.cpp:452:42:[m[K [01;31m[Kerror: [m[K‘[01m[KMINIMUM_BUFFER_SIZE[m[K’ was not declared in this scope
+     if(start_move_ && rib_buffer_size_ < MINIMUM_BUFFER_SIZE)
+[01;32m[K                                          ^[m[K
+In file included from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/testAuboAPI.cpp:33:0[m[K:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_driver.cpp:[m[K In member function ‘[01m[Kvoid aubo_driver::AuboDriver::updateControlStatus()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_driver.cpp:452:42:[m[K [01;31m[Kerror: [m[K‘[01m[KMINIMUM_BUFFER_SIZE[m[K’ was not declared in this scope
+     if(start_move_ && rib_buffer_size_ < MINIMUM_BUFFER_SIZE)
+[01;32m[K                                          ^[m[K
+In file included from [01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_control.cpp:11:0[m[K:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_driver.cpp:[m[K In member function ‘[01m[Kvoid aubo_driver::AuboDriver::updateControlStatus()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/aubo_driver.cpp:452:42:[m[K [01;31m[Kerror: [m[K‘[01m[KMINIMUM_BUFFER_SIZE[m[K’ was not declared in this scope
+     if(start_move_ && rib_buffer_size_ < MINIMUM_BUFFER_SIZE)
+[01;32m[K                                          ^[m[K
+make[2]: *** [CMakeFiles/sendJointPos.dir/src/sendJointPos.cpp.o] Error 1
+make[1]: *** [CMakeFiles/sendJointPos.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/testAuboAPI.dir/src/testAuboAPI.cpp.o] Error 1
+make[1]: *** [CMakeFiles/testAuboAPI.dir/all] Error 2
+make[2]: *** [CMakeFiles/aubo_control.dir/src/aubo_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/aubo_control.dir/all] Error 2
+make: *** [all] Error 2

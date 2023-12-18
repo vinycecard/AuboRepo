@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nicolas/catkin_ws/devel/.private/slider_publisher/setup.sh

@@ -1,0 +1,21 @@
+[ 20%] Built target xml_on_the_fly
+[ 26%] Built target openloop_control
+[ 33%] Built target joint_control
+[35m[1mScanning dependencies of target aubo_robot[0m
+[ 40%] Built target initial_conditions
+[ 46%] Built target filter
+[ 50%] [32mBuilding CXX object CMakeFiles/aubo_robot.dir/src/aubo_robot.cpp.o[0m
+[ 56%] Built target velocity_estimator
+[ 76%] Built target grid_trajectory
+[ 96%] Built target trajectory_publisher
+[100%] [32m[1mLinking CXX executable /home/nicolas/catkin_ws/devel/.private/aubo_nico/lib/aubo_nico/aubo_robot[0m
+CMakeFiles/aubo_robot.dir/src/aubo_robot.cpp.o: In function `main':
+aubo_robot.cpp:(.text+0x16b): undefined reference to `JointControl::~JointControl()'
+aubo_robot.cpp:(.text+0x18c): undefined reference to `JointControl::~JointControl()'
+collect2: error: ld returned 1 exit status
+CMakeFiles/aubo_robot.dir/build.make:115: recipe for target '/home/nicolas/catkin_ws/devel/.private/aubo_nico/lib/aubo_nico/aubo_robot' failed
+make[2]: *** [/home/nicolas/catkin_ws/devel/.private/aubo_nico/lib/aubo_nico/aubo_robot] Error 1
+CMakeFiles/Makefile2:412: recipe for target 'CMakeFiles/aubo_robot.dir/all' failed
+make[1]: *** [CMakeFiles/aubo_robot.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

@@ -1,0 +1,14 @@
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:[m[K In constructor ‘[01m[KJointControl::JointControl(int, char**)[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:74:95:[m[K [01;31m[Kerror: [m[K‘[01m[KJointStatesCallback[m[K’ is not a member of ‘[01m[KJointControl[m[K’
+   joint_states_Sub = nh.subscribe<trajectory_msgs::JointTrajectoryPoint>("/joint_states", 5, &JointControl::JointStatesCallback, this);
+[01;32m[K                                                                                               ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:75:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_command_pub[m[K’ was not declared in this scope
+   joint_command_pub = nh.advertise<trajectory_msgs::JointTrajectoryPoint>("/joint_command",2000);
+[01;32m[K   ^[m[K
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:[m[K In member function ‘[01m[Kvoid JointControl::publishJointCommand()[m[K’:
+[01m[K/home/nicolas/catkin_ws/src/aubo_robot/aubo_driver/src/jointposcontrol.cpp:214:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_command_pub[m[K’ was not declared in this scope
+   joint_command_pub.publish(joint_command);
+[01;32m[K   ^[m[K
+make[2]: *** [CMakeFiles/jointposcontrol.dir/src/jointposcontrol.cpp.o] Error 1
+make[1]: *** [CMakeFiles/jointposcontrol.dir/all] Error 2
+make: *** [all] Error 2

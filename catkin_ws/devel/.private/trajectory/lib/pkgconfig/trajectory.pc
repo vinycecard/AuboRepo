@@ -1,0 +1,8 @@
+prefix=/home/nicolas/catkin_ws/devel/.private/trajectory
+
+Name: trajectory
+Description: Description of trajectory
+Version: 0.0.0
+Cflags: -I/home/nicolas/catkin_ws/src/trajectory/include
+Libs: -L/home/nicolas/catkin_ws/devel/.private/trajectory/lib -ltrajectory
+Requires: roscpp rospy std_msgs trajectory_msgs sensor_msgs actionlib_msgs actionlib aubo_driver

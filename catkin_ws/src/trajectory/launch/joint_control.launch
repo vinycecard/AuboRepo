@@ -1,0 +1,84 @@
+
+<launch>
+
+<!--parameters: 
+
+pos_ref_index: 
+0 - circulo
+1 - ponto fixo
+
+quat_ref_index:
+0 - orientacao fixa (punho para baixo)
+1 - senoide
+
+wp: frequencia angular do circulo de posicao (rad/s)
+
+wo: frequecia angular da senoide de orientacao (rad/s)
+
+Kp: ganho do controle cinematico de posicao do efetuador
+
+Ko: ganho do controle cinematico de orientacao do efetuador
+
+dt: periodo de amostragem (s)
+
+vel_const: "fator coutinho"
+
+cmd_vel: amplitude da onda quadrada de velocidade das juntas (rad/s)
+
+acc: amplitude da onda quadrada de aceleracao das juntas (rad/s^2)
+
+tau: constante de tempo do filtro para velocidade estimada das juntas (s)
+
+Kp_v: ganho do termo proporcional do controle de velocidade
+
+Ki_v: ganho do termo integral do controle de velocidade
+
+-->
+
+<!--
+Rodolpho
+<node name = "joint_control" pkg = "trajectory" type = "joint_control" args = "0 1 .1 .1 5 5 .0253 1 .5 1 .5 5 5" />
+-->
+
+<node name = "joint_control" pkg = "trajectory" type = "joint_control" args = "1 1 .20 .1 5 5 0.10 1 0.02000 0.005 .5 5 5" />
+<!--										    wp 	 	dt    cmd_vel  acc	  
+
+<node name="rqt_plot_1" pkg="rqt_plot" type="rqt_plot" args="topics /joint_states/position[5] /moveItController_cmd/positions[5] /moveItController_cmd/velocities[5]"/>
+<node name="rqt_plot_2" pkg="rqt_plot" type="rqt_plot" args="topics /moveItController_cmd/positions[5] /moveItController_cmd/velocities[5] /moveItController_cmd/accelerations[5]"/>
+-->
+
+</launch>
+
+<!-- Para a onda quadrada na junta 6 (valores que funcionam):
+
+cmd_vel = .5
+tau = .5 (Testei .1 e nao parece haver nenhuma melhora significativa no tempo de assentamento do controle, mas o ruido aumenta bastante).
+
+Controle = I + FF
+Integracao = Euler
+Ki_v = 5 (longo tempo de assentamento, nenhum sobrepasso visivel) (7.68 de sinal de controle para 0.5 de velocidade estimada).
+Ki_v = 10 (tempo de assentamento muito menor, sobrepasso enorme) (4.2 de sinal de controle para 0.5 de velocidade estimada).
+
+Controle = PI + FF
+Integracao = Euler
+Kp_v = 5
+Ki_v = 5
+-->
+
+<!-- Para o circulo e orientacao senoidal (valores que funcionam):
+
+pos_ref_index = 0
+quat_ref_index = 1
+wp = .1
+wo = .1
+Kp = 5
+Ko = 5
+tau = .5
+
+Controle = PI + FF
+Integracao = Tustin
+Kp_v = 5
+Ki_v = 5
+
+-->
+

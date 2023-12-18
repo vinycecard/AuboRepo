@@ -1,0 +1,4 @@
+slider_publisher
+/home/nicolas/catkin_ws/devel/.private/slider_publisher/share/slider_publisher/cmake/slider_publisherConfig-version.cmake /home/nicolas/catkin_ws/devel/share/slider_publisher/cmake/slider_publisherConfig-version.cmake
+/home/nicolas/catkin_ws/devel/.private/slider_publisher/share/slider_publisher/cmake/slider_publisherConfig.cmake /home/nicolas/catkin_ws/devel/share/slider_publisher/cmake/slider_publisherConfig.cmake
+/home/nicolas/catkin_ws/devel/.private/slider_publisher/lib/pkgconfig/slider_publisher.pc /home/nicolas/catkin_ws/devel/lib/pkgconfig/slider_publisher.pc
